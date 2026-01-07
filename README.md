@@ -24,7 +24,7 @@ written into those fields, but we don't intend to handle all the variations. To 
 to the raw name that is often found in data files from CASA or the GFA. 
 
 1. Convert all characters to upper case
-2. Remove the following punctuation characters: ' ', '-', '_', '.', '/', '\', '"', '''
+2. Remove the following punctuation characters: ' ', '-', '_', '.', '/', '\\', '"', '''
 
 ### Aircraft Configuration
 
@@ -42,7 +42,7 @@ not have data defined, it is left empty. All values are in metric units - metres
 |"seat type"| How the seat(s) are arranged for the pilot and passengers. Will be one of "single", "tandem" or "side_by_side"|
 |"fuselage max ballast"| number | If the fuselage can carry a ballast tank, max capacity of that tank|
 |"wings max ballast"| number | If the wings can carry water ballast, the max capacity of ballast that can be carried |
-|"tail ballast type"| Enum | If the tail has the ability to carry ballast to adjust CG, this defines the type. Note that this is for pure CG adjustment. If the tail tank is only to be used to balance the wing ballast, see the "tail wing compensation max ballast" column. Not some aircraft can have both types (eg DG1000). Will be one of "none", "water", "blocks"|
+|"tail ballast type"| Enum | If the tail has the ability to carry ballast to adjust CG, this defines the type. Note that this is for pure CG adjustment. If the tail tank is only to be used to balance the wing ballast, see the "tail wing compensation max ballast" column. Not some aircraft can have both types (eg DG1000). Will be one of "none", "water", "blocks". An aircraft may have a tail tank that can do dual duty for CG management independent of the wings (eg LS6C). In that case, this will be set to the appropriate type, a capacity given, and the wing compensation amount left blank|
 |"tail ballast capacity"| number or formatted string | If tail ballast type is not "none" this defines the max capacity. Aircraft can have either water or blocks here, so depending on the value of the previous column, this will be defined either as a number (kg water), or a formatted string for how many blocks. See later description on how to parse the string|
 |"tail wing compensation max ballast"| number | If there is a ballast tank that can only be used to adjust for the wing ballast tanks, this contains the max amount of water that can be used|
 |"winspan primary"| number| The wingspan of the glider. If there are multiple options (eg 15 and 18m) this will be the lesser of the two spans|
@@ -61,7 +61,7 @@ values, that appear in groups of three. Each group represents a single block con
 | weight | number | The weight per block |
 | count | number | The maximum number of these blocks that can be installed |
 
-Note that some aircraft, like the DG1000 can have multiple blocks type installed. This column may contain multiple of these definitions
+Note that some aircraft, like the DG1000 can have multiple block types installed. This column may contain multiple of these definitions
 in different blocks. Using the DG1000, which can have 4 large blocks and 2 small blocks installed, you would see the following definition
 in the column
 
@@ -79,7 +79,7 @@ the aircraft configuration to generate cockpit placards (eg ballast blocks to mi
 
 This data has been collected and verified to the best of our ability. Where possible we will list the source of the datum information
 so that you can double check. There core data is typically found in the Type Certifcate Data Sheet. However, the more esoteric data,
-such as tail ballast arms are usually found from less trustworthy sources - such as individual club/NAA sheets. The British GLiding
+such as tail ballast arms are usually found from less trustworthy sources - such as individual club/NAA sheets. The British Gliding
 Association has a pretty extensive collection, as well as some from Gliding Australia. Were we can verify these, it will be labelled
 as such. Some you may need to re-validate yourself. 
 
