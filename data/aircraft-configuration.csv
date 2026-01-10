@@ -1,5 +1,5 @@
-"Type certificate","flaps","trim","ruddervator","fixed uc","uc type","seat type","fuselage max ballast","wings max ballast","tail ballast type", "tail ballast capacity", "tail wing compensation max ballast", "winspan primary", "wingspan alternate", "wing panel count", "winglets", "cockpit ballast count", "cockpit ballast block weight"
-SZD481, false, false, false, false, inline, single,,150, none,,,15, ,2, false,,,
+"Type certificate","flaps","trim","ruddervator","fixed uc","uc type","seat type","fuselage max ballast","wings max ballast","tail ballast type","tail ballast capacity","tail wing compensation max ballast","winspan primary","wingspan alternate","wing panel count","winglets","cockpit ballast count","cockpit ballast block weight"
+SZD481,false,false,false,false,inline,single,,150,none,,,15,,2,false,,
 DG1000S,false,false,false,false,inline,tandem,,160,blocks,Large:2.4:4:Small:1.2:2,5.5,18,20,4,true,4,2.4
 ASK21,false,false,false,true,inline,tandem,,,none,,,17,,2,false,,
 LS6C,true,false,false,false,inline,single,,140,water,5.5,,15,17.5,4,true,,
