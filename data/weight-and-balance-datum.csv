@@ -1,0 +1,135 @@
+"Type certificate",category,wingspan,"location","levelling instructions","model","mauw","mdry","mnlp","max seat","min pilot","fwd cg","aft cg","p1arm","p1arm max","p2arm","cockpit ballast arm","tail ballast arm","fuselage fuel arm","wheel to datum","wheel to tailwheel"
+"SZD481",utility,15,'WRLE",TE 22mm below LE at datum,model_1,535,385,245,110,70,158,336,-616,,,,,,120,3648
+
+ASK13,special,17,"Wing Leading edge at rib 3","1000:55 top of fuselage",model_2,480,480,320,100,65,70,247,,,,,,,-959,6190
+ASK13,utility,17,"Wing Leading edge at rib 3","1000:55 top of fuselage",model_2,480,480,320,100,65,70,247,,,,,,,-959,6190
+ASH25E,utility,24,WRLE,REAR FUSE LEVEL,model_1,750,735,425,0,0,210,400,-1330,,-363,-1849,,,0,0
+ASH25M,utility,24,,,model_1,790,777,460,0,0,220,400,-1322,,-339,,250,,0,0
+
+ASK21,utility,17,WRLE,1000:52 top of fuselage,model_3,600,600,410,110,0,234,469,-1185,-1250,-80,-1640,,,-1600,6871
+ASK21MI,utility,17,WRLE,1000:52 top of fuselage,model_1,705,705,510,110,0,234,469,-1185,-1250,-80,-1640,,900,-1600,6871
+
+ASTIRCS,utility,15,,,model_1,450,380,240,0,0,310,480,-475,,,-1000,,,0,0
+ASW19B,utility,15,,,model_1,454,375,230,0,0,240,384,-570,,,,,,0,0
+ASW20BL,utility,16,WRLE,1000:45:00,model_1,430,411,245,0,0,240,360,-550,,,-1880,,,0,0
+ASW20B,utility,15,WRLE,1000:45 top rear fuse,model_1,525,525,245,0,0,240,360,-550,,,-1880,,,0,0
+ASW20BL,utility,16,WRLE,1000:45:00,model_1,525,407,245,0,0,240,360,-550,,,-1880,,,0,0
+
+L13,aerobatic,16.2,WRLE,Levelling points on fuselage horizontal,model_1,500,500,355,110,0,112,300,-1232,,-112,,,,0,0
+L13AC,aerobatic,14.2,WRLE,Levelling points on fuselage horizontal,model_1,500,500,355,110,0,143,337,-1232,,-112,,,,0,0
+L13AC,aerobatic,16.2,WRLE,Levelling points on fuselage horizontal,model_1,510,510,355,110,0,143,337,-1232,,-112,,,,0,0
+L13A,aerobatic,16.2,WRLE,Levelling points on fuselage horizontal,model_1,500,500,355,110,0,112,300,-1232,,-112,,,,0,0
+
+CIRRUS,utility,15,,,model_1,390,390,220,0,0,250,400,-440,,,-1600,,,0,0
+
+DG100,utility,15,WRLE,1000:36.7 top of tail boom,model_1,385,385,265,110,0,200,365,-549,,,-1250,,,0,0
+DG100G,utility,15,WRLE,1000:36.7 top of tail boom,model_1,418,385,265,110,0,220,357,-549,,,-1250,,,0,0
+DG100ELAN,utility,15,WRLE,1000:36.7 top of tail boom,model_1,385,385,265,110,0,220,357,-549,,,-1250,,,0,0
+DG100GELAN,utility,15,WRLE,1000:36.7 top of tail boom,model_1,418,385,265,110,0,220,357,-549,,,-1250,,,0,0
+DG200,utility,15,WRLE,1000:36.7 top of tail boom,model_1,450,450,250,110,0,230,385,-549,,,-1250,,,0,0
+DG20017,utility,15,WRLE,1000:36.7 top of tail boom,model_1,450,450,250,110,0,230,385,-549,,,-1250,,,0,0
+DG20017,utility,17,WRLE,1000:36.7 top of tail boom,model_1,450,450,232,110,0,230,385,-549,,,-1250,,,0,0
+DG20017C,utility,15,WRLE,1000:36.7 top of tail boom,model_1,480,480,240,110,0,230,385,-549,,,-1250,,,0,0
+DG20017C,utility,17,WRLE,1000:36.7 top of tail boom,model_1,450,450,236,110,0,230,385,-549,,,-1250,,,0,0
+DG300,utility,15,WRLE,1000:36.7 top of tail boom,model_1,525,370,246,110,70,160,325,-549,,,-1250,,4180,6,4188
+DG300ELAN,utility,15,WRLE,1000:36.7 top of tail boom,model_1,525,370,246,110,70,158,325,-549,,,-1250,,4180,6,4188
+DG300CLUBELAN,utility,15,WRLE,1000:36.7 top of tail boom,model_1,500,370,246,110,70,158,325,-549,,,-1250,,4180,6,4188
+DG300ELANACRO,utility,15,WRLE,1000:36.7 top of tail boom,model_1,525,370,246,110,70,158,325,-549,,,-1250,,4180,6,4188
+DG300CLUBELANACRO,utility,15,WRLE,1000:36.7 top of tail boom,model_1,500,370,246,110,70,158,325,-549,,,-1250,,4180,6,4188
+DG300CLUBELANACRO,aerobatic,15,WRLE,1000:36.7 top of tail boom,model_1,370,370,246,110,70,158,325,-549,,,-1250,,4180,6,4188
+DG400,utility,15,WRLE,aft fuselage midline horizontal,model_1,480,480,320,110,0,250,390,-526,,,,,,0,0
+DG400,utility,17,WRLE,aft fuselage midline horizontal,model_1,460,460,320,110,0,250,390,-526,,,,,,0,0
+DG600,utility,15,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,246,110,0,220,380,-526,,,,,,0,0
+DG600,utility,17,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,246,110,0,220,380,-526,,,,,,0,0
+DG60018,utility,15,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,246,110,0,220,380,-526,,,,,,0,0
+DG60018,utility,17,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,246,110,0,220,380,-526,,,,,,0,0
+DG60018,utility,18,WRLE,1000:24 on aft fuselage top horizontal,model_1,480,480,246,110,0,220,380,-526,,,,,,0,0
+DG600M,utility,15,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,296,110,0,220,380,-526,,,,,,0,0
+DG600M,utility,17,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,296,110,0,220,380,-526,,,,,,0,0
+DG600M18,utility,15,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,296,110,0,220,380,-526,,,,,,0,0
+DG600M18,utility,17,WRLE,1000:24 on aft fuselage top horizontal,model_1,525,525,296,110,0,220,380,-526,,,,,,0,0
+DG600M18,utility,18,WRLE,1000:24 on aft fuselage top horizontal,model_1,480,480,296,110,0,220,380,-526,,,,,,0,0
+DG50020ELAN,utility,20,WRLE,1000:33 on top of aft fuselage horizontal,model_1,750,750,460,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG50022ELAN,utility,22,WRLE,1000:33 on top of aft fuselage horizontal,model_1,750,750,460,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANTRAINER,utility,18,WRLE,1000:33 on top of aft fuselage horizontal,model_1,615,615,435,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANTRAINER,aerobatic,18,WRLE,1000:33 on top of aft fuselage horizontal,model_1,615,615,435,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANORION,utility,17.2,WRLE,1000:33 on top of aft fuselage horizontal,model_1,750,625,445,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANORION,utility,18,WRLE,1000:33 on top of aft fuselage horizontal,model_1,750,625,445,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANORION,utility,20,WRLE,1000:33 on top of aft fuselage horizontal,model_1,750,625,445,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANORION,aerobatic,17.2,WRLE,1000:33 on top of aft fuselage horizontal,model_1,625,625,435,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANORION,aerobatic,18,WRLE,1000:33 on top of aft fuselage horizontal,model_1,625,625,435,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500ELANORION,aerobatic,20,WRLE,1000:33 on top of aft fuselage horizontal,model_1,625,625,435,110,0,185,480,-1295,,-232,-2455,409,,0,0
+DG500M,utility,22,WRLE,1000:33 on top of aft fuselage horizontal,model_1,825,803,560,110,0,255,480,-1295,,-232,-2455,409,,0,0
+DG500MB,utility,20,WRLE,1000:33 on top of aft fuselage horizontal,model_1,825,803,560,110,0,255,480,-1295,,-232,-2455,409,,0,0
+DG500MB,utility,22,WRLE,1000:33 on top of aft fuselage horizontal,model_1,815,803,560,110,0,255,480,-1295,,-232,-2455,409,,0,0
+DG1000S,aerobatic,17.2,"WRLE","1000:33 top of tail boom",model_1,750,630,469,110,70,190,440,-1250,-1350,-272,-1960,5400,,114,5189
+DG1000S,utility,18,"WRLE","1000:33 top of tail boom",model_1,750,630,469,110,70,190,440,-1250,-1350,-272,-1960,5400,,114,5189
+DG1000S,utility,20,WRLE,1000:33 top of fuselage,model_1,750,630,469,110,70,190,440,-1250,-1350,-272,-1960,,,0,0
+DG1000T,utility,18,WRLE,1000:33 top of fuselage,model_1,750,630,554,110,70,200,440,-1250,-1350,-272,-1960,,,0,0
+DG1000T,utility,20,WRLE,1000:33 top of fuselage,model_1,750,630,554,110,70,200,440,-1250,-1350,-272,-1960,,,0,0
+DG1000M,utility,20,WRLE,1000:33 top of fuselage,model_1,790,630,600,110,70,320,440,-1250,-1350,-272,-1960,,,0,0
+DG1001E,aerobatic,17.2,WRLE,1000:33 top of fuselage,model_1,630,630,600,110,70,190,440,-1250,-1350,-272,-1960,,,0,0
+DG1001E,aerobatic,18,WRLE,1000:33 top of fuselage,model_1,630,630,600,110,70,190,440,-1250,-1350,-272,-1960,,,0,0
+DG1001E,utility,17.2,WRLE,1000:33 top of fuselage,model_1,750,630,600,110,70,190,440,-1250,-1350,-272,-1960,,,0,0
+DG1001E,utility,18,WRLE,1000:33 top of fuselage,model_1,750,630,600,110,70,190,440,-1250,-1350,-272,-1960,,,0,0
+DG1001E,utility,20,WRLE,1000:33 top of fuselage,model_1,790,630,600,110,70,190,440,-1250,-1350,-272,-1960,,,0,0
+
+DUODISCUSM,utility,20,WRLE,1000:45 top fuse,model_1,700,700,490,0,0,45,250,-1400,,-290,-1855,,,0,0
+G103ACRO,aerobatic,17.5,WRLE,,model_1,,600,400,0,0,260,460,-1150,,40,-1450,,,0,0
+GROB109A,utility,16.6,WRLE,level 500 in front of fin,model_1,0,825,640,0,0,380,465,90,,90,-300,1035,,0,0
+GROB103,utility,17.5,WRLE,1000:40,model_1,,580,400,0,0,260,460,-1150,,40,-1450,,,0,0
+HORNET,utility,15,WRLE,100:52:00,model_1,420,420,225,0,0,250,375,-410,,,,,,0,0
+IS28B2,utility,17,WRLE,See data sheet,model_1,590,590,,0,0,249,531,-1361,,-254,-1835,,,0,0
+IS28B2,aerobatic,17,WRLE,2.35 deg on tail boom,model_1,520,520,,0,0,249,531,-1361,,-254,-1835,,,0,0
+
+LS1A,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,312,312,212,110,0,210,350,-600,,,,,,0,0
+LS1B,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,312,312,212,110,0,210,350,-600,,,,,,0,0
+LS1C,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,332,332,212,110,0,210,350,-600,,,,,,0,0
+LS1D,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,341,341,212,110,0,210,350,-600,,,,,,0,0
+LS1D-WINGLET,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,332,332,212,110,0,210,350,-600,,,,,,0,0
+LS1E,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,341,341,212,110,0,210,400,-600,,,,,,0,0
+LS1F,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,390,390,230,110,0,220,420,-600,,,,,,0,0
+LS1F45,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,439,439,230,110,0,220,420,-600,,,,,,0,0
+LS3,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,472,472,240,110,0,250,400,-527,,,,,,0,0
+LS3A,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,472,472,230,110,0,250,400,-527,,,,,,0,0
+LS317,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,472,472,230,110,0,250,400,-527,,,,,,0,0
+LS317,utility,17,WRLE,lower side of rear fuselage boom horizontal,model_1,370,370,230,110,0,250,400,-527,,,,,,0,0
+LS4,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,472,472,230,110,0,225,375,-527,,,,,,0,0
+LS4A,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,525,525,230,110,0,225,400,-527,,,,,,0,0
+LS4B,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,525,525,230,110,0,225,400,-527,,,,,,0,0
+LS6,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,525,380,230,110,0,250,400,-500,,,-1650,,,0,0
+LS6A,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,525,380,230,110,0,250,400,-500,,,-1650,,,0,0
+LS6B,utility,15,WRLE,lower side of rear fuselage boom horizontal,model_1,525,380,240,110,0,250,400,-500,,,-1650,,,0,0
+LS6C,utility,15,"WRLE",lower side of rear fuselage boom horizontal,model_1,525,425,240,110,70,294,386,-500,,,-1400,,,179,4181
+LS6C,utility,17.5,"WRLE",lower side of rear fuselage boom horizontal,model_1,525,425,240,110,70,294,386,-500,,,-1400,,,179,4181
+LS6C18,utility,15,"WRLE",lower side of rear fuselage boom horizontal,model_1,525,425,235,110,70,294,386,-500,,,-1400,,,179,4181
+LS6C18,utility,18,"WRLE",lower side of rear fuselage boom horizontal,model_1,525,425,235,110,70,294,386,-500,,,-1400,,,179,4181
+LS618W,utility,15,"WRLE",lower side of rear fuselage boom horizontal,model_1,525,425,240,110,70,294,386,-500,,,-1400,,,179,4181
+LS618W,utility,18,"WRLE",lower side of rear fuselage boom horizontal,model_1,525,425,240,110,70,294,386,-500,,,-1400,,,179,4181
+LS7,utility,15,"WRLE",lower side of rear fuselage boom horizontal,model_1,486,486,235,110,70,294,386,-500,,,-1400,,,179,4181
+LS7WL,utility,15,"WRLE",lower side of rear fuselage boom horizontal,model_1,486,486,235,110,70,294,386,-500,,,-1400,,,179,4181
+LS8,utility,15,WRLE,Bottom of fuse horizontal,model_1,525,412,239,0,0,280,400,-500,,,-1400,,,0,0
+LS8,utility,18,WRLE,Bottom of fuse horizontal,model_1,525,412,239,0,0,280,400,-500,,,-1400,,,0,0
+MOSQUITO,utility,15,WRLE,,model_1,450,380,240,0,0,235,360,-444,,,-1570,,,0,0
+NIMBUS3DM,utility,24.5,WRLE,1000:45 rear fuse,model_1,820,820,515,0,0,70,230,-1468,,-339,-1960,,,0,0
+NIMBUS3DM,utility,25.5,WRLE,1000:45 rear fuse,model_1,820,820,515,0,0,70,230,-1468,,-339,-1960,,,0,0
+NIMBUS3T,utility,22.9,WRLE,1000::45,model_1,750,750,300,0,0,270,400,-596,,,-1800,,,0,0
+NIMBUS3T,utility,24.5,WRLE,1000::45 top rear fuse,model_1,750,750,300,0,0,270,400,-596,,,-1800,,,0,0
+NIMBUS3T,utility,25.5,WRLE,1000::45,model_1,750,750,300,0,0,270,385,-596,,,-1800,,,0,0
+NIMBUS3,utility,22.9,WRLE,,model_1,700,,,0,0,,,,,,,,,0,0
+NIMBUS3,utility,24.5,WRLE,,model_1,700,,,0,0,,,,,,,,,0,0
+NIMBUS3,utility,25.5,WRLE,,model_1,700,,,0,0,,,,,,,,,0,0
+PIK20B,utility,15,WRLE,,model_1,450,450,230,0,0,185,325,-440,,,-1670,,,0,0
+PIK20D,utility,15,WRLE,1000:28 rear fuse,model_1,450,450,220,0,0,185,325,-440,,,-1670,,,0,0
+SILENT2,utility,13,,,model_1,300,300,300,0,0,-374,-283,-1004,,,-2200,,,0,0
+SZD481,utility,15,WRLE,T/E 22mm below L/E,model_1,535,385,245,0,0,148,336,-616,,,,,,0,0
+SZD483,utility,15,WRLE,T/E 22mm below L/E,model_1,540,390,243,0,0,148,336,-605,,,,,,0,0
+SZD502,utility,16.67,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_1,540,540,398,0,0,132,203,-1339,,-247,-1745,,,0,0
+SZD503,utility,16.67,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,570,570,398,0,0,92,333,-1339,,-247,-1745,,,0,0
+SZD503,aerobatic,16.67,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,540,540,398,0,0,92,333,-1339,,-247,-1745,,,0,0
+SZD511,utility,15,WRLE,wings level,model_1,380,380,275,0,0,287,482,-500,,,-970,,,0,0
+
+TWINASTIR,utility,17,WRLE,1000:40 150 fwd of fin,model_1,650,650,470,0,0,260,460,-1140,,11,-1600,-370,,0,0
+VENTUS2CXM,utility,18,WRLE,1000:44:00,model_1,565,,340,0,0,290,380,-530,,,-1740,335,,0,0
+VENTUSA,utility,15,WRLE,,model_1,500,331,210,0,0,200,340,-440,,,,,,0,0
+WHISPER,utility,16,WRLE,,model_1,775,775,,0,0,360,474,600,,600,,,,0,0
