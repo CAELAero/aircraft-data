@@ -1,0 +1,251 @@
+{
+    "ASH25": {
+        "FlightManual": {
+            "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf"
+        }
+    },
+    "ASH26E": {
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/2981643/Alexander-Schleicher-Ash-26-E.html"
+        }
+    },
+    "ASH31MI": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+        }
+    },
+    "ASW2718": {
+        "FlightManual": {
+            "URL": "https://www.scribd.com/document/684284451/Flughandbuch-ASG29Es"
+        }
+    },
+    "ASW2718E": {
+        "FlightManual": {
+            "URL": "https://www.scribd.com/document/684284451/Flughandbuch-ASG29Es"
+        },
+        "AMM": {
+            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/37.manuel-de-maintenance-asg-29.pdf"
+        }
+    },
+    "ASW28": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/downloads/7492/en"
+        }
+    },
+    "AS33ES": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/3514970/Alexander-Schleicher-As-33-Es-2020.html"
+        }
+    },    
+    "ASTIRCS": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+        },
+        "RepairManual": {
+            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+        }
+    },
+    "ASTIRCS77": {
+        "FlightManual": {
+            "URL": "https://www.northumbriagliding.co.uk/wp-content/uploads/2019/06/Astir-CS-77-Flight-Manual.pdf"
+        },
+        "AMM": {
+            "URL": "https://www.northumbriagliding.co.uk/wp-content/uploads/2019/06/Astir-CS-77-Flight-Manual.pdf"
+        }
+    },
+    "STANDARDASTIRIII": {
+        "FlightManual": {
+            "URL": "https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/Grob-G102-Flight-Manual.pdf"
+        }
+    },
+    "CLUBASTIRIII": {
+        "FlightManual": {
+            "URL": "https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/Grob-G102-Flight-Manual.pdf"
+        }
+    },
+    "CLUBASTIRIIIB": {
+        "FlightManual": {
+            "URL": "https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/Grob-G102-Flight-Manual.pdf"
+        }
+    },
+    "DISCUSA": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/1070475/Schempp-Hirth-Flugzeugbau-Discus-A.html"
+        }
+    },
+    "DISCUSB": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/1070475/Schempp-Hirth-Flugzeugbau-Discus-A.html"
+        }
+    },
+    "DISCUSCS": {
+        "AMM": {
+            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/40.manuel-de-maintenance-discus-cs.pdf"
+        }
+    },
+    "DISCUSC2": {
+        "FlightManual": {
+            "URL": "https://static1.squarespace.com/static/581f5f9129687f6b1d73b1e8/t/5913c8e86a49634ba558757c/1494468864447/Discus2FlightManual.pdf"
+        }
+    },
+    "DISCUSC2CFES": {
+        "AMM": {
+            "URL": "https://ic.captainchristian.fr/wp-content/uploads/2023/04/MM-Discus-2cFES-Rev.-0.pdf"
+        }
+    },
+    "DG100": {
+        "AMM": {
+            "URL": "https://aeroklublivno.org/wp-content/uploads/2017/01/DG100_100_Elan_manual.pdf"
+        }
+    },
+    "DG100G": {
+        "AMM": {
+            "URL": "http://aviation.derosaweb.net/dg101/documentation/DG100G_Elan_Manual.pdf"
+        }
+    },
+    "DG300": {
+        "FlightManual": {
+            "URL": "https://www.ggc.org.au/docs/aircraft/fmanual/DG300.pdf"
+        },
+        "AMM": {
+            "URL": "https://www.fyns-svaeveflyveklub.dk/PDF/Medlem/Fly-haandbog/DG300_Elan_MM%202xA5.pdf"
+        }
+    },
+    "DG400": {
+        "FlightManual": {
+            "URL": "http://www.airsailing.org/downloads/ops%20manual.pdf"
+        }
+    },
+    "DUODISCUS": {
+        "FlightManual": {
+            "URL": "https://aeroclubnimbus.aero/wp-content/uploads/2020/05/Duo_Discus_en_sn_414.pdf"
+        },
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa025-schempp-hirth"
+        }
+    },
+    "DUODISCUST": {
+        "AMM": {
+            "URL": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=13313941&FileExtension=pdf&FileName=MM%20Duo%20T%20Rev%200%20kpl-Rel.pdf"
+        },
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa074-schempp-hirth"
+        }
+    },
+    "DUODISCUSXL": {
+        "FlightManual": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Duo_Discus_xL_Flight_Manual.pdf"
+        }
+    },
+    "JANUSB": {
+        "AMM": {
+            "URL": "https://www.darltonglidingclub.co.uk/wp/wp-content/uploads/2021/02/Janus-FM.pdf"
+        }
+    },
+    "JANUSC": {
+        "AMM": {
+            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/17.manuel-de-vol-janus-c.pdf"
+        }
+    },
+    "JANUSCE": {
+        "AMM": {
+            "Version": "1",
+            "URL": "https://canterburyglidingclub.nz/wp-content/uploads/documents/Maintenance/PB%20Maintenance%20Manual/Maintenance%20Manual%20PB%20Janus%20Ce.pdf"
+        },
+        "TCDS": {
+            "Authority": "LBA",
+            "Reference": "295",
+            "Date": "19900724",
+            "URL": ""
+        }
+    },
+    "STANDARDLIBELLE201B": {
+        "AMM": {
+            "URL": "http://old.abqsoaring.org/aircraft_documents/Glasfluegel_Libell_201B_Manual.pdf"
+        }
+    },
+    "TWINASTIR": {
+        "FlightManual": {
+            "Revision": "9",
+            "URL": "https://sggc.org.au/wp-content/uploads/2019/10/Twin-Astir-FH-Rev-9.pdf"
+        },
+        "AMM": {
+            "URL": "https://sggc.org.au/wp-content/uploads/2019/10/Twin-Astir-FH-Rev-9.pdf"
+        },
+        "RepairManual": {
+            "URL": "https://sggc.org.au/wp-content/uploads/2019/10/Twin-Astir-FH-Rev-9.pdf"
+        }
+    },
+    "TWINASTIRII": {
+        "FlightManual": {
+            "URL":"https://www.aeroclubprealpivenete.it/wp-content/uploads/2015/03/Flight-Handbook-Grob-G-103-Twin-Astir-II.pdf"
+        },
+        "AMM": {
+            "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
+        },
+        "RepairManual": {
+            "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
+        }
+    },
+    "VENTUSB": {
+        "FlightManual": {
+            "URL": "https://www.flyavm.it/manuali/Ventus_b.pdf"
+        }
+    },
+    "VENTUS2A": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.de/download/113895/Schempp-Hirth-Flugzeugbau-Ventus-2B.html"
+        }
+    },
+    "VENTUS2C": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2499400/Flugzeugbau-Ventus-2c.html"
+        }
+    },
+    "VENTUS2CT": {
+        "FlightManual": {
+            "URL": "https://svaevethy.dk/wp-content/uploads/2014/05/Ventus-2cT-SW-part-2.pdf"
+        }
+    },
+    "VENTUS2CM": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2542645/Schempp-Hirth-Flugzeugbau-Ventus-2cm.html"
+        }
+    },
+    "VENTUS3M": {
+        "AMM": {
+            "URL": "https://www.manualslib.com/download/3500364/Schempp-Hirth-Flugzeugbau-Ventus-3m.html"
+        },
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
+        }
+    },
+    "VENTUS3T": {
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2096346/Schempp-Hirth-Flugzeugbau-Ventus-3t-Sport.html"
+        },
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
+        }
+    },
+    "VENTUS3F": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
+        }
+    },
+    "VENTUS3E": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
+        }
+    }
+}
