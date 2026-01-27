@@ -140,6 +140,9 @@ DUODISCUST,utility,20,Tail Wheel/AV.9/AV.10,WRLE,1000:45 top of rear fuselage,mo
 DUODISCUST,utility,20,Tail Skid/AV.9/AV.10,WRLE,1000:45 top of rear fuselage,model_1,750,750,500,110,0,45,250,-1400,,-290,-1855,5230,,65,,,520,,65,5300
 DUODISCUSFES,utility,20,Tail Wheel,WRLE,1000:45 top of rear fuselage,model_1,750,720,520,110,0,73,250,-1400,,-290,-1855,5230,,65,,,,,65,5265
 DUODISCUSFES,utility,20,Tail Skid,WRLE,1000:45 top of rear fuselage,model_1,750,720,520,110,0,73,250,-1400,,-290,-1855,5230,,65,,,,,65,5300
+GLASFLUGEL604,utility,22,,Wing leading edge y=500 mm from the centerline,1000:44 on rear top fuselage,model_1,650,650,300,110,0,378,455,,,,,,,,,,,,0,0
+GLASFLUGEL304,utility,15,,Wing leading edge y=500 mm from the centerline,1000:52 on rear top fuselage,model_1,450,450,240,110,0,200,325,,,,,,,,,,,,0,0
+GLASFLUGEL304B,utility,15,,Wing leading edge y=500 mm from the centerline,1000:52 on rear top fuselage,model_1,450,450,240,110,0,200,325,,,,,,,,,,,,0,0
 GROB103,utility,17.5,,WRLE,1000:40,model_1,,580,400,0,0,260,460,-1150,,40,-1450,,,,,,,,0,0
 G103ACRO,aerobatic,17.5,,WRLE,,model_1,,600,400,0,0,260,460,-1150,,40,-1450,,,,,,,,0,0
 GROB109A,utility,16.6,,WRLE,level 500 in front of fin,model_1,0,825,640,0,0,380,465,90,,90,-300,1035,,,,,,,0,0
@@ -147,9 +150,6 @@ HORNET,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rea
 HORNETC,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,450,225,110,0,250,375,-410,,,,,,,,,,,0,0
 H301,utility,15,,Wing leading edge y=425 mm from the centerline,1000:70 on rear top fuselage,model_1,300,300,200,110,0,215,354,,,,,,,,,,,,0,0
 H301B,utility,15,,Wing leading edge y=425 mm from the centerline,1000:70 on rear top fuselage,model_1,300,300,200,110,0,215,354,,,,,,,,,,,,0,0
-GLASFLUGEL604,utility,22,,Wing leading edge y=500 mm from the centerline,1000:44 on rear top fuselage,model_1,650,650,300,110,0,378,455,,,,,,,,,,,,0,0
-GLASFLUGEL304,utility,15,,Wing leading edge y=500 mm from the centerline,1000:52 on rear top fuselage,model_1,450,450,240,110,0,200,325,,,,,,,,,,,,0,0
-GLASFLUGEL304B,utility,15,,Wing leading edge y=500 mm from the centerline,1000:52 on rear top fuselage,model_1,450,450,240,110,0,200,325,,,,,,,,,,,,0,0
 IS28B2,utility,17,,WRLE,See data sheet,model_1,590,590,,0,0,249,531,-1361,,-254,-1835,,,,,,,,0,0
 IS28B2,aerobatic,17,,WRLE,2.35 deg on tail boom,model_1,520,520,,0,0,249,531,-1361,,-254,-1835,,,,,,,,0,0
 JANUS,utility,18.2,,WRLE,1000:45 top of rear fuselage,model_1,620,620,400,110,70,30,300,-1300,,-190,,,,,188,1100,,,164,5252
@@ -211,16 +211,24 @@ LS8T,utility,15,,WRLE,Bottom of fuse horizontal,model_1,525,525,305,110,0,280,40
 LS8T,utility,18,,WRLE,Bottom of fuse horizontal,model_1,575,575,305,110,0,280,400,-500,,,-1400,,,,,,,,0,0
 LS8E,utility,15,,WRLE,Bottom of fuse horizontal,model_1,525,525,305,110,0,280,400,-500,,,-1400,,,,,,,,0,0
 LS8E,utility,18,,WRLE,Bottom of fuse horizontal,model_1,575,575,305,110,0,280,400,-500,,,-1400,,,,,,,,0,0
-MOSQUITO,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,380,240,0,0,235,360,-444,,,-1570,,,,,,,,0,0
-MOSQUITOB,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,240,240,0,0,200,325,-444,,,-1570,,,,,,,,0,0
-NIMBUS3DM,utility,24.5,,WRLE,1000:45 rear fuse,model_1,820,820,515,0,0,70,230,-1468,,-339,-1960,,,,,,,,0,0
-NIMBUS3DM,utility,25.5,,WRLE,1000:45 rear fuse,model_1,820,820,515,0,0,70,230,-1468,,-339,-1960,,,,,,,,0,0
-NIMBUS3T,utility,22.9,,WRLE,1000::45,model_1,750,750,300,0,0,270,400,-596,,,-1800,,,,,,,,0,0
-NIMBUS3T,utility,24.5,,WRLE,1000::45 top rear fuse,model_1,750,750,300,0,0,270,400,-596,,,-1800,,,,,,,,0,0
-NIMBUS3T,utility,25.5,,WRLE,1000::45,model_1,750,750,300,0,0,270,385,-596,,,-1800,,,,,,,,0,0
-NIMBUS3,utility,22.9,,WRLE,,model_1,700,,,0,0,,,,,,,,,,,,,,0,0
-NIMBUS3,utility,24.5,,WRLE,,model_1,700,,,0,0,,,,,,,,,,,,,,0,0
-NIMBUS3,utility,25.5,,WRLE,,model_1,700,,,0,0,,,,,,,,,,,,,,0,0
+MOSQUITO,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,380,240,110,70,235,360,-444,,,-1570,,,,,,,,0,0
+MOSQUITOB,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,240,240,110,70,200,325,-444,,,-1570,,,,,,,,0,0
+NIMBUS2,utility,20.3,,WRLE,1000:45 rear fuse,model_1,580,470,250,110,75,290,410,-570,,,,,,,,,,,85,4740
+NIMBUS2M,utility,20.3,,WRLE,1000:45 rear fuse,model_1,600,600,300,110,75,335,445,-570,,,,,,,,,,,85,4740
+NIMBUS3D,utility,24.5,,WRLE,1000:45 rear fuse,model_1,750,750,250,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
+NIMBUS3D,utility,25.5,,WRLE,1000:45 rear fuse,model_1,750,750,250,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
+NIMBUS3DT,utility,24.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
+NIMBUS3DT,utility,25.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
+NIMBUS3DM,utility,24.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
+NIMBUS3DM,utility,25.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
+NIMBUS3T,utility,22.9,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,400,-596,,,-1800,,,,,,,,0,0
+NIMBUS3T,utility,24.5,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,400,-596,,,-1800,,,,,,,,0,0
+NIMBUS3T,utility,25.5,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,385,-596,,,-1800,,,,,,,,0,0
+NIMBUS3,utility,22.9,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,400,-596,,,-1800,,,,,,,,0,0
+NIMBUS3,utility,24.5,,WRLE,1000:45 rear top of rear fuselage,model_1,700,700,250,110,0,270,400,-596,,,-1800,,,,,,,,0,0
+NIMBUS3,utility,24.5,"TN 286-27",WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,400,-596,,,-1800,,,,,,,,0,0
+NIMBUS3,utility,25.5,,WRLE,1000:45 rear top of rear fuselage,model_1,700,700,250,110,0,270,385,-596,,,-1800,,,,,,,,,0,0
+NIMBUS3,utility,25.5,"TN 286-20",WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,385,-596,,,-1800,,,,,,,,,0,0
 NIMBUS4,utility,26.4,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,0,330,450,,,,,,,,,,,,0,0
 NIMBUS4T,utility,26.4,,WRLE,1000:45 rear top of rear fuselage,model_1,800,800,350,110,0,330,450,,,,,,,,,,,,0,0
 NIMBUS4M,utility,26.4,,WRLE,1000:45 rear top of rear fuselage,model_1,800,800,380,110,0,355,450,,,,,,,,,,,,0,0
@@ -242,10 +250,11 @@ STANDARDLIBELLE201B,utility,15,,Wing leading edge y=425 mm from the centerline,1
 STANDARDLIBELLE203,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,380,315,210,110,0,244,348,,,,,,,,,,,,0,0
 SZD481,utility,15,,WRLE,T/E 22mm below L/E,model_1,535,385,245,110,70,148,336,-616,,,,,,,,,,,120,3648
 SZD483,utility,15,,WRLE,T/E 22mm below L/E,model_1,540,390,243,110,70,148,336,-605,,,,,,,,,,,120,3648
-SZD502,utility,16.67,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_1,540,540,398,0,0,132,203,-1339,,-247,-1745,,,,,,,,0,0
-SZD503,utility,16.67,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,570,570,398,0,0,92,333,-1339,,-247,-1745,,,,,,,,0,0
-SZD503,aerobatic,16.67,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,540,540,398,0,0,92,333,-1339,,-247,-1745,,,,,,,,0,0
-SZD511,utility,15,,WRLE,wings level,model_1,380,380,275,110,55,287,482,-500,,,,,,,120,,,-970,0,4160
+SZD502,utility,16.67,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_1,540,540,398,0,0,132,203,-1339,,-247,-1745,,,,-54,,,,0,0
+SZD503,utility,16.67,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,570,570,398,110,55,92,333,-1339,,-247,-1745,,,,-54,,,,0,0
+SZD503,aerobatic,16.67,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,540,540,398,110,55,92,333,-1339,,-247,-1745,,,,-54,,,,0,0
+SZD511,utility,15,,WRLE,Wing leading and trailing edge level,model_1,380,380,275,110,55,287,482,-500,,,,,,,120,,,-970,0,4160
+SZD551,utility,15,,WRLE,Wing leading and trailing edge level,model_1,500,350,230,110,60,283,441,-470,-580,,,3900,4385,210,500,,1000,-970,0,0
 TWINASTIR,utility,17.5,,WRLE,600:24 top of rear fuselage 150mm in front of fin,model_1,650,650,470,110,70,260,460,-1140,,11,-1560,-370,,,,,,,0,0
 TWINASTIR,aerobatic,17.5,,WRLE,600:24 top of rear fuselage 150mm in front of fin,model_1,600,600,400,110,70,260,460,-1140,,11,-1560,-370,,,,,,,0,0
 TWINASTIRII,utility,17.5,,WRLE,600:24 top of rear fuselage,model_1,580,580,400,110,70,260,460,-1140,,11,-1560,-370,,,,,,,545,4332
