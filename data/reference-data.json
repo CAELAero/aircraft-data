@@ -1,87 +1,593 @@
 {
+    "ARCUS": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa532-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "ARCUST" ]
+    },
+    "ARCUST": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa532-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/16.manuel-de-maintenance-arcus-t.pdf",
+            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "p1_instrument_arm", "cockpit_ballast_arm", "wing_ballast_arm", "fuselage_fuel_arm", "tail_battery_arm", "tail_ballast_arm" ]
+        }
+    },
+    "ARCUSM": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa532-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.scribd.com/document/815126371/Arcus-M-Maintenance-Manual-English",
+            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "p1_instrument_arm", "cockpit_ballast_arm", "wing_ballast_arm", "wing_fuel_arm", "fuselage_fuel_arm", "tail_battery_arm", "tail_ballast_arm"]
+        }
+    },
     "ASH25": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa213-ash-25",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf"
+            "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf",
+            "Provides": [ ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASH-25.pdf",
+            "Provides": [ "p1arm", "p2arm" ]
+        },
+        "Unverified": [ "cockpit_ballast_arm" ]
+    },
+    "ASH25E": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa213-ash-25",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf",
+            "Provides": [ ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASH-25.pdf",
+            "Provides": [ "p1arm", "p2arm" ]
+        },
+        "Unverified": [ "cockpit_ballast_arm" ]
+    },
+    "ASH25M": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa213-ash-25",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf",
+            "Provides": [ ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASH-25.pdf",
+            "Provides": [ "p1arm", "p2arm" ]
+        },
+        "Unverified": [ "cockpit_ballast_arm" ]
+    },
+    "ASH26": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa212-ash-26",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/2981643/Alexander-Schleicher-Ash-26-E.html",
+            "Provides": [ "baggage_arm", "wing_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
         }
     },
     "ASH26E": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa212-ash-26",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "AMM": {
-            "URL": "https://www.manualslib.com/manual/2981643/Alexander-Schleicher-Ash-26-E.html"
+            "URL": "https://www.manualslib.com/manual/2981643/Alexander-Schleicher-Ash-26-E.html",
+            "Provides": [ "baggage_arm", "wing_ballast_arm", "tail_battery_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
         }
     },
     "ASH31MI": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa538-schleicher-ash",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html",
+            "Provides": []
         }
+    },
+    "ASK13": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/airworthiness/k13/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://esgc.co.uk/wp-content/uploads/2014/01/ASK13_Flight_Manual-1.pdf"
+        },
+        "AMM": { 
+            "URL": "https://esgc.co.uk/wp-content/uploads/2014/01/ASK13_Flight_Manual-1.pdf"
+        },
+        "Unverified": [ "Special category" ]
+    },
+    "ASK21": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa221-schleicher-ask",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/4083142/Alexander-Schleicher-Ask-21.html",
+            "Provides": []
+        },
+        "References": [ "ASK21MI" ]
+    },
+    "ASK21MI": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa221-schleicher-ask",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/3116569/Alexander-Schleicher-Ask-21-Mi.html",
+            "Provides": [ "cockpit_ballast_arm", "baggage_arm", "p1arm", "p1arm_max", "p2arm"]
+        }
+    },
+    "ASK21B": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa221-schleicher-ask",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/3116321/Alexander-Schleicher-Ask-21-B.html",
+            "Provides": [ "max_seat", "p1arm", "p1arm_max", "p2arm", "p1_instrument_arm", "distance_a", "distance_b"]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/3327714/Alexander-Schleicher-Ask-21-B.html",
+            "Provides": []
+        }
+    },
+    "ASW19": {
+        "References": [ "ASW19B" ]
+    },
+    "ASW19B": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/airworthiness/asw19-3/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.airsailing.org/downloads/NSA_Gliders/ASW19b-Flight-Manual.pdf"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW-19-19B-Data-sheet.pdf",
+            "Provides": [ "p1arm", "p1arm_max"]
+        }
+    },
+    "ASW20": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/airworthiness/asw20/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://mgrim.nl/_downloads/asw20l/asw20-flight-manual.pdf"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW-20-20F-Data-sheet.pdf",
+            "Provides": [ "mdry" ]            
+        },
+        "Unverified": [ "cockpit_ballast_arm", "p1_instrument_arm"]
+    },
+    "ASW20L": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/airworthiness/asw20/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.schellenberg.nl/frank/Tools/Gliding/PH1586/Manuals/ASW20L%20-%20Flight%20And%20Operations%20Manual.html"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW-20-20F-Data-sheet.pdf",
+            "Provides": [ "mdry" ]            
+        },
+        "Unverified": [ "cockpit_ballast_arm", "p1_instrument_arm" ]
+    },
+    "ASW20B": {
+        "References": [ "ASW20" ]
+    },
+    "ASW20BL": {
+        "References": [ "ASW20L" ]
+    },
+    "ASW20C": {
+        "References": [ "ASW20" ]
+    },
+    "ASW20CL": {
+        "References": [ "ASW20L" ]
+    },
+    "ASW20F": {
+        "References": [ "ASW20" ]
+    },
+    "ASW24": {
+        "TCDS": {
+            "Authority":"LBA",
+            "URL": "https://members.gliding.co.uk/library/tcds/asw24-2/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.williamssoaring.com/fleet/ASW24_manual.pdf",
+            "Provides": [ "mdry" ]
+        },
+        "AMM": {
+            "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/240_TM02_E_HB.pdf",
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_battery_arm", "p1_instrument_arm", "baggage_arm"]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW24.pdf",
+            "Provides": [ "mdry" ]
+        }
+    },
+    "ASW24B": {
+        "References": [ "ASW24" ]
+    },
+    "ASW24TOP": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/downloads/137512/en",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
+    "ASW27": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa220-schleicher-asw",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "ASW2718E" ]
     },
     "ASW2718": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa220-schleicher-asw",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
             "URL": "https://www.scribd.com/document/684284451/Flughandbuch-ASG29Es"
-        }
+        },
+        "References": [ "ASW2718E" ]
     },
     "ASW2718E": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa220-schleicher-asw",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
             "URL": "https://www.scribd.com/document/684284451/Flughandbuch-ASG29Es"
         },
         "AMM": {
-            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/37.manuel-de-maintenance-asg-29.pdf"
+            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/37.manuel-de-maintenance-asg-29.pdf",
+            "Provides": [ "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "fuselage_fuel_arm", "baggage_arm"]
         }
     },
     "ASW28": {
         "TCDS": {
             "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/downloads/7492/en"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa017-schleicher-asw"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW-28-18-28-18E-Data-sheet.pdf",
+            "Provides": [ "mdry" ]
         }
     },
+    "ASW28B": {
+        "References": [ "ASW28" ]
+    },
+    "ASW2818": {
+        "References": [ "ASW28" ]
+    },
     "AS33ES": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa656-33",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/3514970/Alexander-Schleicher-As-33-Es-2020.html"
+            "URL": "https://www.manualslib.com/manual/3514970/Alexander-Schleicher-As-33-Es-2020.html",
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "cockpit_ballast_arm", "fuselage_fuel_arm", "tail_ballast_arm", "tail_battery_arm" ]
         }
-    },    
+    },
+    "AS33ME": {
+        "References": [ "AS33ES"]
+    },
     "ASTIRCS": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+            "URL": "https://www.psgc.co.uk/pdf/g-devk-astir-cs-flight-manual.pdf",
+            "Provides": [ "mdry", "p1arm"]
         },
         "AMM": {
-            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+            "URL": "https://www.psgc.co.uk/pdf/g-devk-astir-cs-flight-manual.pdf"
         },
         "RepairManual": {
-            "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html"
+            "URL": "https://www.psgc.co.uk/pdf/g-devk-astir-cs-flight-manual.pdf"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312113_astircs.pdf"
         }
     },
     "ASTIRCS77": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.northumbriagliding.co.uk/wp-content/uploads/2019/06/Astir-CS-77-Flight-Manual.pdf"
+            "URL": "https://www.northumbriagliding.co.uk/wp-content/uploads/2019/06/Astir-CS-77-Flight-Manual.pdf",
+            "Provides": [ "mdry", "p1arm"]
         },
         "AMM": {
             "URL": "https://www.northumbriagliding.co.uk/wp-content/uploads/2019/06/Astir-CS-77-Flight-Manual.pdf"
+        }, 
+        "RepairManual": {
+            "URL": "https://www.northumbriagliding.co.uk/wp-content/uploads/2019/06/Astir-CS-77-Flight-Manual.pdf"
+        }, 
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/AstirCS77datasheet.pdf"
+        }
+    },
+    "ASTIRCSJEANS": {
+        "References": [ "ASTIRCS77" ]
+    },
+    "CLUBASTIRII": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312118_clubastir2.pdf",
+            "Provides":[ "mdry", "p1arm" ]
         }
     },
     "CLUBASTIRIII": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/Grob-G102-Flight-Manual.pdf"
+            "URL": "https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/Grob-G102-Flight-Manual.pdf",
+            "Provides": ["mdry" ]
+        }, 
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312118_clubastir3.pdf",
+            "Provides": ["p1arm"]
         }
     },
     "CLUBASTIRIIIB": {
+        "References": [ "CLUBASTIRII" ]
+    },
+    "CLUBLIBELLE205": {
         "TCDS": {
-            "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/Grob-G102-Flight-Manual.pdf"
+            "URL": "https://www.azp.pila.pl/wp-content/uploads/2025/07/Instrukcja-Libelle.pdf"
+        },
+        "AMM": {
+            "URL": "https://www.azp.pila.pl/wp-content/uploads/2025/07/Instrukcja-Libelle.pdf"
+        }, 
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312136_libelleclub.pdf",
+            "Provides":[ "p1arm", "p1arm_max" ]
         }
+    },
+    "DG100": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/sites/default/files/dfu/TCDS_EASA.A.239_DG-SingleSeaters_issue_11.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://aeroklublivno.org/wp-content/uploads/2017/01/DG100_100_Elan_manual.pdf",
+            "Provides": [ "mdry", "baggage_arm", "wing_ballast_arm", "cockpit_ballast_arm"]
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-100-Data-sheet.pdf",
+            "Provides":["p1arm", "p1arm_max"]
+        }
+    },
+    "DG100G": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/sites/default/files/dfu/TCDS_EASA.A.239_DG-SingleSeaters_issue_11.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "http://aviation.derosaweb.net/dg101/documentation/DG100G_Elan_Manual.pdf",
+            "Provides": [ "mdry", "baggage_arm", "wing_ballast_arm", "cockpit_ballast_arm" ]
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-100G-Elan-data-sheet.pdf",
+            "Provides":["p1arm", "p1arm_max"]
+        }
+    },
+    "DG100ELAN": {
+        "References": [ "DG100" ]
+    },
+    "DG100GELAN": {
+        "References": [ "DG100G" ]
+    },
+    "DG200": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/sites/default/files/dfu/TCDS_EASA.A.239_DG-SingleSeaters_issue_11.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2305268/Dg-Flugzeugbau-Dg200.html",
+            "Provides": [ "mdry" ]
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/2305268/Dg-Flugzeugbau-Dg200.html",
+            "Provides": [ "p1arm", "p1arm_max" ]
+        },
+        "RepairManual": {
+            "URL": "https://www.manualslib.com/manual/2305268/Dg-Flugzeugbau-Dg200.html"
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-200-202-glass-fibre-versions-BGA-data-sheet.pdf",
+            "Provides":["p1arm", "p1arm_max"]
+        }
+    },
+    "DG20017": {
+        "References":[ "DG200" ]
+    },
+    "DG20017C": {
+        "References":[ "DG200" ],
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-202-17C-Carbon-fibre-version-BGA-data-sheet.pdf"
+        }
+    },
+    "DG300": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/sites/default/files/dfu/TCDS_EASA.A.239_DG-SingleSeaters_issue_11.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.ggc.org.au/docs/aircraft/fmanual/DG300.pdf"
+        },
+        "AMM": {
+            "URL": "https://www.fyns-svaeveflyveklub.dk/PDF/Medlem/Fly-haandbog/DG300_Elan_MM%202xA5.pdf",
+            "Provides":[ "p1arm", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm"]
+        },
+        "Unverified": [ "cockpit_ballast_arm" ]
+    },
+    "DG300ELAN": {
+        "References":[ "DG300" ]
+    },
+    "DG300CLUBELAN": {
+        "References":[ "DG300" ]
+    },
+    "DG300ELANACRO": {
+        "References":[ "DG300" ]
+    },
+    "DG300CLUBELANACRO": {
+        "References":[ "DG300" ]
+    },
+    "DG400": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/sites/default/files/dfu/TCDS_EASA.A.239_DG-SingleSeaters_issue_11.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "http://www.airsailing.org/downloads/ops%20manual.pdf"
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/3792751/Dg-Flugzeugbau-Dg-400.html",
+            "Provides": [ "p1arm", "baggage_arm", "fuselage_fuel_arm", "wing_fuel_arm"]
+        },
+        "RepairManual": {
+            "URL": "https://www.manualslib.com/manual/3786846/Dg-Flugzeugbau-Dg-400.html"
+        }
+
+    },
+    "DG600":{
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/sites/default/files/dfu/TCDS_EASA.A.239_DG-SingleSeaters_issue_11.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://ic.captainchristian.fr/wp-content/uploads/2020/09/DG600-18_FM-manuel-de-vol.pdf",
+            "Provides":["p1arm","p1arm_max","wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "baggage_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
+        }
+    },
+    "DG60018": {
+        "References": ["DG600" ]
+    },
+    "DG600M": {
+        "References": ["DG600" ]
+    },
+    "DG60018M": {
+        "References": ["DG600" ]
+    },
+    "DG800A": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa067-dg-800",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://pesee-centrage.fr/wp-content/uploads/2024/01/DG800A_FM.pdf"
+        }
+    },
+    "DG808C": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa067-dg-800",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL":"https://www.manualslib.com/manual/1300762/Dg-Flugzeugbau-Dg-800a.html"
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/1300761/Dg-Flugzeugbau-Dg-800a.html",
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "p1_instrument_arm","distance_b"]
+        }
+    },
+    "DG800B": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa067-dg-800",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/1267367/Dg-Flugzeugbau-Dg-800b.html",
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "p1_instrument_arm","distance_b"]
+        }
+    },
+    "DG800S": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa067-dg-800",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2228228/Dg-Flugzeugbau-Dg-800s.html",
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "cockpit_ballast_arm", "p1_instrument_arm","distance_b"]
+        },
+        "RepairManual": {
+            "URL":"https://www.manualslib.com/manual/1300759/Dg-Flugzeugbau-Dg-800s.html"
+        }
+    },
+    "DG808S": {
+        "References": [ "DG800S" ]
     },
     "DISCUSA": {
         "FlightManual": {
@@ -106,29 +612,6 @@
     "DISCUSC2CFES": {
         "AMM": {
             "URL": "https://ic.captainchristian.fr/wp-content/uploads/2023/04/MM-Discus-2cFES-Rev.-0.pdf"
-        }
-    },
-    "DG100": {
-        "AMM": {
-            "URL": "https://aeroklublivno.org/wp-content/uploads/2017/01/DG100_100_Elan_manual.pdf"
-        }
-    },
-    "DG100G": {
-        "AMM": {
-            "URL": "http://aviation.derosaweb.net/dg101/documentation/DG100G_Elan_Manual.pdf"
-        }
-    },
-    "DG300": {
-        "FlightManual": {
-            "URL": "https://www.ggc.org.au/docs/aircraft/fmanual/DG300.pdf"
-        },
-        "AMM": {
-            "URL": "https://www.fyns-svaeveflyveklub.dk/PDF/Medlem/Fly-haandbog/DG300_Elan_MM%202xA5.pdf"
-        }
-    },
-    "DG400": {
-        "FlightManual": {
-            "URL": "http://www.airsailing.org/downloads/ops%20manual.pdf"
         }
     },
     "DUODISCUS": {
@@ -316,22 +799,20 @@
         "TCDS": {
             "Authority":"EASA",
             "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard"
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312149_speedastir2.pdf",
+            "Provides": [ "p1arm", "mdry" ]
         }
     },
     "SPEEDASTIRIIB":{
-        "TCDS": {
-            "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard"
-        }
+        "References": [ "SPEEDASTIRII" ]
+    },
+    "STANDARDASTIRII": {
+        "References": [ "CLUBASTIRII" ]
     },
     "STANDARDASTIRIII": {
-        "TCDS": {
-            "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
-        },
-        "FlightManual": {
-            "URL": "https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/Grob-G102-Flight-Manual.pdf"
-        }
+        "References": [ "CLUBASTIRIII" ]
     },
     "STANDARDCIRRUS":{
         "TCDS": {
@@ -431,8 +912,8 @@
     },
     "SZD591": {
         "TCDS": {
-            "Authority":"Poland",
-            "URL":"https://www.szdallstar.com/media/technische-mitteilungen/szd-55-1-nexus/tcds-bg-163-1-szd-55-1-poland-en.pdf"
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa310-szd-59-acro"
         },
         "FlightManual": {
             "URL": "https://sagach.ch/wp-content/uploads/2024/01/HB3559_AFM_591.4.pdf"
