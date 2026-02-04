@@ -927,7 +927,7 @@
     "JANUS": {
         "TCDS": {
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/janus-2/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0295_01.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "AMM": {
@@ -937,7 +937,7 @@
     "JANUSB": {
         "TCDS": {
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/janus/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0295_02.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "AMM": {
@@ -955,7 +955,7 @@
     "JANUSC": {
         "TCDS": {
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/janus-3/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0295_03.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
@@ -970,7 +970,7 @@
     "JANUSCE": {
         "TCDS": {
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/janus-4/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0295_04.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "AMM": {
@@ -1272,6 +1272,12 @@
             "URL": "https://www.manualslib.com/manual/969332/Dg-Flugzeugbau-Ls10-S.html"
         }
     },
+    "LS10ST": {
+        "References": [ "LS10S" ]
+    },
+    "LS10A": {
+        "References": [ "LS10S" ]
+    },
     "MOSQUITO": {
         "TCDS": {
             "Authority": "EASA",
@@ -1280,23 +1286,51 @@
         },
         "FlightManual": {
             "URL": "https://manualzz.com/doc/6278006/fllgh-i--and-_service-manual-glasflugel---m-o-s-q-u-i-t-o--"
-        }
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312140_mosquitoaandb.pdf",
+            "Provides": [ "mdry", "p1arm" ]
+        },
+        "Unverified": [ "cockpit_ballast_arm" ]
     },
     "MOSQUITOB": {
-        "TCDS": {
-            "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
-            "Provides": [ "mauw", "mnlp", "cg_range" ]
-        }
+        "References": [ "MOSQUITO" ]
     },
     "NIMBUS2": {
         "TCDS":{
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0286_01.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://drive.google.com/drive/folders/13DEAAi1gq5csF8BYXTQF-iHKiYSKnO6p"
+            "URL": "https://drive.google.com/drive/folders/13DEAAi1gq5csF8BYXTQF-iHKiYSKnO6p",
+            "Provides": [ "mdry", "distance_a", "distance_b"]
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312141_nimbus2a.pdf",
+            "Provides": [ "p1arm" ]
+        }
+    },
+    "NIMBUS2B": {
+        "TCDS":{
+            "Authority": "LBA",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0286_02.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/library/datasheets/nimbus-2b/",
+            "Provides": [ "p1arm" ]
+        }
+    },
+    "NIMBUS2C": {
+        "TCDS":{
+            "Authority": "LBA",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0286_03.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL":"https://members.gliding.co.uk/library/datasheets/nimbus-2c/",
+            "Provides": [ "p1arm" ]
         }
     },
     "NIMBUS2M": {
@@ -1309,18 +1343,37 @@
     "NIMBUS3": {
         "TCDS":{
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0286_04.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
+    },
+    "NIMBUS3245": {
+        "TCDS":{
+            "Authority": "LBA",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0286_05.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "NIMBUS3T" ]
     },
     "NIMBUS3T": {
         "TCDS":{
             "Authority": "LBA",
             "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3t/",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.scribd.com/document/629198003/Nimbus-3T-Flight-Manual-text",
+            "Provides": [ "p1arm", "wing_ballast_arm", "fuselage_fuel_arm" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/Nimbus-3-3T-BGA-data-sheet.pdf"
         }
     },
     "NIMBUS3D": {
+        "TCDS": {
+            "Authority":"LBA",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0373_01.pdf"
+        },
         "FlightManual": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Nimbus3D_Flight_Manual.pdf"
         }

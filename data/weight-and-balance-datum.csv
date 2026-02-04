@@ -268,24 +268,33 @@ LS10S,utility,18,,WRLE,Bottom of fuse horizontal,model_1,600,600,284,110,0,230,3
 LS10ST,utility,15,,WRLE,Bottom of fuse horizontal,model_1,540,540,284,110,0,230,378,,,,,,,,,,,,0,0
 LS10ST,utility,18,,WRLE,Bottom of fuse horizontal,model_1,600,600,284,110,0,230,378,,,,,,,,,,,,0,0
 LS10A,utility,18,,WRLE,Bottom of fuse horizontal,model_1,600,600,274,110,0,230,378,,,,,,,,,,,,0,0
-MOSQUITO,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,380,240,110,70,235,360,-444,,,-1570,,,,,,,,0,0
-MOSQUITOB,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,240,240,110,70,200,325,-444,,,-1570,,,,,,,,0,0
+
+MOSQUITO,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,380,240,110,70,235,360,-440,,,-1570,,,,,,,,0,0
+MOSQUITOB,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,450,240,240,110,70,200,325,-440,,,-1570,,,,,,,,0,0
+
 NIMBUS2,utility,20.3,,WRLE,1000:45 rear fuse,model_1,580,470,250,110,75,290,410,-570,,,,,,,,,,,85,4740
-NIMBUS2M,utility,20.3,,WRLE,1000:45 rear fuse,model_1,600,600,300,110,75,335,445,-570,,,,,,,,,,,85,4740
+NIMBUS2B,utility,20.3,,WRLE,1000:45 rear fuse,model_1,580,475,250,110,75,290,410,-570,,,,,,,,,,,,
+NIMBUS2C,utility,20.3,,WRLE,1000:45 rear fuse,model_1,650,475,250,110,75,290,420,-570,,,,,,,,,,,,
+
+NIMBUS2M,utility,20.3,,WRLE,1000:45 rear fuse,model_1,600,600,300,110,75,335,445,-570,,,,,,,,,,,,
+
 NIMBUS3D,utility,24.5,,WRLE,1000:45 rear fuse,model_1,750,750,250,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
 NIMBUS3D,utility,25.5,,WRLE,1000:45 rear fuse,model_1,750,750,250,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
 NIMBUS3DT,utility,24.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
 NIMBUS3DT,utility,25.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
 NIMBUS3DM,utility,24.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
 NIMBUS3DM,utility,25.5,,WRLE,1000:45 rear fuse,model_1,800,800,450,110,70,20,200,-1468,,-339,-1960,5290,,24,,,,,0,0
-NIMBUS3T,utility,22.9,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,400,-596,,,-1800,,,,,,,,0,0
-NIMBUS3T,utility,24.5,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,400,-596,,,-1800,,,,,,,,0,0
-NIMBUS3T,utility,25.5,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,385,-596,,,-1800,,,,,,,,0,0
-NIMBUS3,utility,22.9,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,400,-596,,,-1800,,,,,,,,0,0
-NIMBUS3,utility,24.5,,WRLE,1000:45 rear top of rear fuselage,model_1,700,700,250,110,0,270,400,-596,,,-1800,,,,,,,,0,0
-NIMBUS3,utility,24.5,"TN 286-27",WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,400,-596,,,-1800,,,,,,,,0,0
-NIMBUS3,utility,25.5,,WRLE,1000:45 rear top of rear fuselage,model_1,700,700,250,110,0,270,385,-596,,,-1800,,,,,,,,,0,0
-NIMBUS3,utility,25.5,"TN 286-20",WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,385,-596,,,-1800,,,,,,,,,0,0
+
+NIMBUS3T,utility,22.9,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,400,-596,,,-1700,,,196,,,270,,0,0
+NIMBUS3T,utility,24.5,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,400,-596,,,-1700,,,196,,,270,,0,0
+NIMBUS3T,utility,25.5,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,70,270,385,-596,,,-1700,,,196,,,270,,0,0
+
+NIMBUS3,utility,22.9,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,400,-596,,,-1700,,,196,,,,,0,0
+NIMBUS3,utility,24.5,,WRLE,1000:45 rear top of rear fuselage,model_1,700,700,250,110,0,270,400,-596,,,-1700,,,196,,,,,0,0
+NIMBUS3,utility,24.5,"TN 286-27",WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,400,-596,,,-1700,,,196,,,,,0,0
+NIMBUS3,utility,25.5,,WRLE,1000:45 rear top of rear fuselage,model_1,700,700,250,110,0,270,385,-596,,,-1700,,,196,,,,,,0,0
+NIMBUS3,utility,25.5,"TN 286-20",WRLE,1000:45 rear top of rear fuselage,model_1,750,750,250,110,0,270,385,-596,,,-1700,,,196,,,,,,0,0
+
 NIMBUS4,utility,26.4,,WRLE,1000:45 rear top of rear fuselage,model_1,750,750,300,110,0,330,450,,,,,,,,,,,,0,0
 NIMBUS4T,utility,26.4,,WRLE,1000:45 rear top of rear fuselage,model_1,800,800,350,110,0,330,450,,,,,,,,,,,,0,0
 NIMBUS4M,utility,26.4,,WRLE,1000:45 rear top of rear fuselage,model_1,800,800,380,110,0,355,450,,,,,,,,,,,,0,0
