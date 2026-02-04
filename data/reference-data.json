@@ -589,123 +589,694 @@
     "DG808S": {
         "References": [ "DG800S" ]
     },
-    "DISCUSA": {
+    "DG50020ELAN": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa233-dg-500",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/1070475/Schempp-Hirth-Flugzeugbau-Discus-A.html"
+            "URL":"https://ic.captainchristian.fr/wp-content/uploads/2020/10/Extrait-%C2%A7-6-AFM-DG-500-20.pdf",
+            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "tail_battery_arm", "cockpit_ballast_arm"]
         }
+    },
+    "DG500ELANORION": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa233-dg-500",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL":"https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/DG-500-Orion-Flight-Manual.pdf",
+            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm"]
+        },
+        "AMM": {
+            "URL": "https://static1.squarespace.com/static/581f5f9129687f6b1d73b1e8/t/58e5b55b1b10e3fbacecb94d/1491449220863/DG500_MaintenanceManual.pdf"
+        },
+        "OtherData":{
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-505-Elan-Orion-17.2-18-20-meter-un-flapped-BGA-data-sheet.pdf",
+            "Provides":[ "mdry" ]
+        }
+    },
+    "DG500ELANTRAINER": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa233-dg-500",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL":"https://alvsbyflygklubb.se/instruk/DG500ManualEng.pdf",
+            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "tail_battery_arm", "cockpit_ballast_arm"]
+        }
+    },
+    "DG500M": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa233-dg-500",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL":"https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/DG-500-Orion-Flight-Manual.pdf",
+            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm","fuselage_fuel_arm"]
+        },
+        "AMM": {
+            "URL":"https://www.manualslib.com/manual/995620/Dg-Flugzeugbau-Dg-500m.html"
+        }
+    },
+    "DG500MB": {
+        "References":[ "DG500M" ]
+    },
+    "DG1000S":{
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa072-dg-1000",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://ddsc.org.au/wp-content/uploads/2021/10/DG1000S-Flight-Manual.pdf",
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm" ]
+        }, 
+        "RepairManual": {
+            "URL": "https://www.manualslib.com/manual/1300764/Dg-Flugzeugbau-Dg-1000.html"
+        }
+    },
+    "DG1000T":{
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa072-dg-1000",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/1300766/Dg-Flugzeugbau-Dg-1000.html",
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "fuselage_fuel_arm" ]
+        }, 
+        "RepairManual": {
+            "URL": "https://www.manualslib.com/manual/1300764/Dg-Flugzeugbau-Dg-1000.html"
+        }
+    },
+    "DG1000M":{
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa072-dg-1000",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://klubbenonline.objects.dc-sto1.glesys.net/HVSYstkSaF9FJM74/3RXJlnTYE8d984zABIGSlkboLldOIqeu2tHr1Nja.pdf"
+        },
+        "FlightManual": {
+            "URL": "https://klubbenonline.objects.dc-sto1.glesys.net/HVSYstkSaF9FJM74/y1j6OQIRuzA0s5fvuC6SUpGHeQkuPL5BttTrdI28.pdf",
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "fuselage_fuel_arm" ]
+        }, 
+        "RepairManual": {
+            "URL": "https://www.manualslib.com/manual/1300764/Dg-Flugzeugbau-Dg-1000.html"
+        }
+    },
+    "DG1000E": {
+        "References": [ "DG1000S" ]
+    },
+    "DISCUSA": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa049-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/1070475/Schempp-Hirth-Flugzeugbau-Discus-A.html",
+            "Provides":[ "p1arm", "cockpit_ballast_arm", "wing_ballast_arm", "baggage_arm"]
+        },
+        "Unverified": [ "distance_a", "distance_b" ]
     },
     "DISCUSB": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa049-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/1070475/Schempp-Hirth-Flugzeugbau-Discus-A.html"
-        }
+            "URL": "https://www.manualslib.com/manual/1070475/Schempp-Hirth-Flugzeugbau-Discus-A.html",
+            "Provides":[ "p1arm", "cockpit_ballast_arm", "wing_ballast_arm", "baggage_arm"]
+        },
+        "Unverified": [ "distance_a", "distance_b" ]
+    },
+    "DISCUSBT": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa050-discus-bt",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.scribd.com/document/83393310/Discus-bT-Maintenance-Manual-Rev-8",
+            "Provides": [ "distance_a", "distance_b", "fuselage_fuel_arm" ]
+        },
+        "References": [ "DISCUSB" ]
+    },
+    "DISCUSBM": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa050-discus-bt",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "DISCUSBT" ]
     },
     "DISCUSCS": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa049-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/3356377/Schempp-Hirth-Flugzeugbau-Discus-Cs-1990.html",
+            "Provides": [ "p1arm", "cockpit_ballast_arm", "baggage_arm", "wing_ballast_arm"]
+        },
         "AMM": {
             "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/40.manuel-de-maintenance-discus-cs.pdf"
-        }
+        },
+        "Unverified": [ "distance_a", "distance_b" ]
     },
     "DISCUSC2": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa049-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://static1.squarespace.com/static/581f5f9129687f6b1d73b1e8/t/5913c8e86a49634ba558757c/1494468864447/Discus2FlightManual.pdf"
+            "URL": "https://static1.squarespace.com/static/581f5f9129687f6b1d73b1e8/t/5913c8e86a49634ba558757c/1494468864447/Discus2FlightManual.pdf",
+            "Provides":[ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
         }
     },
+    "DISCUSC2C": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa049-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "DISCUS2CFES" ]
+    },
+    "DISCUS2T": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa050-discus-bt",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
+    "DISCUS2CT": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa050-discus-bt",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "DISCUS2CFES" ]
+    },
     "DISCUSC2CFES": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa050-discus-bt",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "AMM": {
-            "URL": "https://ic.captainchristian.fr/wp-content/uploads/2023/04/MM-Discus-2cFES-Rev.-0.pdf"
+            "URL": "https://ic.captainchristian.fr/wp-content/uploads/2023/04/MM-Discus-2cFES-Rev.-0.pdf",
+            "Provides": [ "distance_a", "distance_b", "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm"]
         }
     },
     "DUODISCUS": {
-        "FlightManual": {
-            "URL": "https://aeroclubnimbus.aero/wp-content/uploads/2020/05/Duo_Discus_en_sn_414.pdf"
-        },
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa025-schempp-hirth"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa025-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://aeroclubnimbus.aero/wp-content/uploads/2020/05/Duo_Discus_en_sn_414.pdf",
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
         }
     },
-    "DUODISCUST": {
-        "AMM": {
-            "URL": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=13313941&FileExtension=pdf&FileName=MM%20Duo%20T%20Rev%200%20kpl-Rel.pdf"
-        },
+    "DUODISCUSC": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa074-schempp-hirth"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa025-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://aeroclubnimbus.aero/wp-content/uploads/2020/05/Duo_Discus_en_sn_414.pdf",
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
+        },
+        "References": [ "DUODISCUST"]
+    },
+    "DUODISCUST": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa074-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=13313941&FileExtension=pdf&FileName=MM%20Duo%20T%20Rev%200%20kpl-Rel.pdf",
+            "Provides": [ "p1arm", "p2arm", "wing_ballast_arm", "tail_ballast_arm", "fuselage_fuel_arm"]
         }
     },
     "DUODISCUSXL": {
         "FlightManual": {
-            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Duo_Discus_xL_Flight_Manual.pdf"
-        }
-    },
-    "JANUSB": {
-        "AMM": {
-            "URL": "https://www.darltonglidingclub.co.uk/wp/wp-content/uploads/2021/02/Janus-FM.pdf"
-        }
-    },
-    "JANUSC": {
-        "AMM": {
-            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/17.manuel-de-vol-janus-c.pdf"
-        }
-    },
-    "JANUSCE": {
-        "AMM": {
-            "Version": "1",
-            "URL": "https://canterburyglidingclub.nz/wp-content/uploads/documents/Maintenance/PB%20Maintenance%20Manual/Maintenance%20Manual%20PB%20Janus%20Ce.pdf"
-        },
-        "TCDS": {
-            "Authority": "LBA",
-            "Reference": "295",
-            "Date": "19900724",
-            "URL": ""
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Duo_Discus_xL_Flight_Manual.pdf",
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
         }
     },
     "GLASFLUGEL604": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "GLASFLUGEL304": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "GLASFLUGEL304B": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
-
+    "G109": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa249-g-109-g-109b",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
+    "G109B": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa249-g-109-g-109b",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
     "H301": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "H301B": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "HORNET": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://gogliding.org.au/ddsc/wp-content/uploads/2021/10/Glasflugel-Hornet-Flight-and-Maintenance-Manual-1.pdf",
+            "Provides":[]
+        },
+        "OtherData": {
+            "URL": "https://streifly.de/wp-content/uploads/2022/08/TN206-8e.pdf",
+            "Provides": [ "p1arm", "cockpit_ballast_arm" ]
         }
     },
     "HORNETC": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "HORNET" ]
+    },
+    "IS28B2": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa453-is28-is29-is30",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://clubplaneadoresbari.com.ar/manuales/IS28B2_Lark_Manual.pdf",
+            "Provides": [ "p1arm", "p2arm", "cockpit_ballast_arm", "distance_a", "distance_b" ]
+        },
+        "AMM": {
+            "URL": "https://clubplaneadoresbari.com.ar/manuales/IS28B2_Lark_Manual.pdf"
+        }
+    },
+    "JANUS": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/tcds/janus-2/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.darltonglidingclub.co.uk/wp/wp-content/uploads/2021/02/Janus-FM.pdf"
+        }
+    },
+    "JANUSB": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/tcds/janus/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.darltonglidingclub.co.uk/wp/wp-content/uploads/2021/02/Janus-FM.pdf",
+            "Provides": [ "p1arm", "p2arm", "baggage_arm","distance_a", "distance_b", "cockpit_ballast_arm"]
+        }
+    },
+    "JANUSBM": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/tcds/janus-bm/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
+    "JANUSC": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/tcds/janus-3/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/janus_c_flight_manual-light.pdf",
+            "Provides": [ "p1arm", "p2arm", "baggage_arm", "cockpit_ballast_arm"]
+        },
+        "AMM": {
+            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/42.manuel-de-maintenance-janus-c.pdf",
+            "Provides": [ "distance_a", "distance_b"]
+        }
+    },
+    "JANUSCE": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/tcds/janus-4/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://canterburyglidingclub.nz/wp-content/uploads/documents/Maintenance/PB%20Maintenance%20Manual/Maintenance%20Manual%20PB%20Janus%20Ce.pdf",
+            "Provides": [ "p1arm", "p2arm", "baggage_arm", "wing_ballast_arm"]
+        }
+    },
+    "JANUSCT": {
+        "TCDS": {
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/tcds/janus-ct-2/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
+    "JANUSCM": {
+        "References": ["JANUSCT" ]
+    },
+    "JSMD1C": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa616-js-md-single",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2811283/Jonker-Sailplanes-Js1-Revelation.html",
+            "Provides": [ "p1arm", "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "baggage_arm", "fuselage_fuel_arm"]
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/2249051/Jonker-Sailplanes-Js1-Series.html"
+        }
+    },
+    "JSMD3": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa616-js-md-single",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "JSMD3RES" ]
+    },
+    "JSMD3RES": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa616-js-md-single",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://jonker-sailplanes.com/wp-content/uploads/2025/09/MD11-AFM-00-001-I01.30_JS-MD-3-RES-Powered-Aircraft-Flight-Manual_APPROVED_compressed.pdf",
+            "Provides": [ "p1arm", "cockpit_ballast_arm", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm"]
+        },
+        "AMM": {
+            "URL": "https://jonker-sailplanes.com/wp-content/uploads/2025/09/MD11-AMM-00-001_I02_-JS-MD-3-RES-AMM_Signed_compressed.pdf"
+        }
+    },
+    "KESTREL": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/library/datasheets/kestrel-17/",
+            "Provides":[ "p1arm", "distance_a", "distance_b" ]
+        }
+    },
+    "KESTREL19": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/specific-airworthiness-specifications/easasasa089",
+            "Provides":[ "p1arm", "mauw", "mdry", "cg_range"]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/library/datasheets/kestrel-19/",
+            "Provides":[ "p1arm", "distance_a", "distance_b" ]
+        }
+    },
+    "L13": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa024-l-13-blanik",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://blanikam.net/web/ba/L13FM_N254BA.pdf"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/Blanik-BGA-Data-sheet.pdf",
+            "Provides": [ "p1arm", "p2arm" ]
+        }
+    },
+    "L13A": {
+        "References": [ "L13" ]
+    },
+    "L13AC": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa024-l-13-blanik",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://flsc.org/portals/12/PDF/POH/L13AC_POH_1.pdf",
+            "Provides": [ "p1arm", "p2arm" ]
+        }
+    },
+    "LS1A": {
+        "References": [ "LS1F" ]
+    },
+    "LS1B": {
+        "References": [ "LS1F" ]
+    },
+    "LS1C": {
+        "References": [ "LS1F" ]
+    },
+    "LS1D": {
+        "References": [ "LS1F" ]
+    },
+    "LS1E": {
+        "References": [ "LS1F" ]
+    },
+    "LS1F": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa095-ls-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }, 
+        "FlightManual": {
+            "URL": "https://www.aeroclubprealpivenete.it/wp-content/uploads/2015/03/Rolladen-Schneider-LS1-Flight-Manual.pdf"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/LS-1F-BGA-data-sheet.pdf",
+            "Provides": [ "p1arm"]
+        }
+    },
+    "LS1F45": {
+        "References": [ "LS1F" ]
+    },
+    "LS3": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa095-ls-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }, 
+        "AMM": {
+            "URL": "http://bb-aero.eu/userfiles/file/instrukca%20uzytkowania%20w%20locie%20Ls%203a_EN.pdf"            
+        },
+        "FlightManual": {
+            "URL": "http://bb-aero.eu/userfiles/file/skan%20instrukcji%20Ls%203a%20-%20(wersja%20dodatkowa).pdf"
+        }
+    },
+    "LS3A": {
+        "References": [ "LS3" ]
+    },
+    "LS317": {
+        "References": [ "LS3" ]
+    },
+    "LS4": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa095-ls-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }, 
+        "FlightManual": {
+            "URL": "https://www.aeroclubprealpivenete.it/wp-content/uploads/2015/03/Rolladen-Schneider-LS4-Flight-Manual.pdf",
+            "Provides": [ "p1arm", "p1arm_max" ]
+        },
+        "AMM": {
+            "URL": "https://canterburyglidingclub.nz/wp-content/uploads/documents/Maintenance/LS4%20Flight%20Manual/MM%20LS4_all_TN4049[17413].pdf",
+            "Provides": [ "cockpit_ballast_arm" ]
+        }
+    },
+    "LS4A": {
+        "References": [ "LS4" ]
+    },
+    "LS4B": {
+        "References": [ "LS4" ]
+    },
+    "LS6": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa095-ls-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }, 
+        "AMM": {
+            "URL": "https://www.scribd.com/document/684284706/LS6-a-Maintenance-Manual-1988-Feb-25th"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/LS-6c-15-17.5-Meter-BGA-data-sheet.pdf",
+            "Provides": [ "p1arm", "mdry"    ]
+        },
+        "Unverified": [ "cockpit_ballast_arm", "distance_a", "distance_b" ]
+    },
+    "LS6A": {
+        "References": [ "LS6" ]
+    },
+    "LS6C": {
+        "References": [ "LS6" ],
+        "Measured": [
+            {
+                "arms": [ "distance_a", "distance_b" ],
+                "source": "VH-GLP",
+                "date": "19971219"
+            }
+        ]
+    },
+    "LS6C18": {
+        "References": [ "LS6C" ]
+    },
+    "LS618W": {
+        "References": [ "LS6C" ]
+    },
+    "LS7": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa095-ls-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }, 
+        "FlightManual":{
+            "URL": "https://ic.captainchristian.fr/wp-content/uploads/2020/08/LS7-Flight-Manual.pdf"
+        }
+    },
+    "LS7WL": {
+        "References": [ "LS7" ]
+    },
+    "LS8": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa047-ls8",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.nil.fi/sites/default/files/MM-LS8.pdf",
+            "Provides": []
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/LS-8-15-18-Meter-BGA-data-sheet.pdf",
+            "Provides": [ "p1arm", "mdry" ]
+        }
+    },
+    "LS8A": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa047-ls8",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": { 
+            "URL": "https://www.nil.fi/sites/nil.fi/files/docs/ls8-flight-man.pdf",
+            "Provides": [ "mdry" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/LS-8-15-18-Meter-BGA-data-sheet.pdf",
+            "Provides": [ "p1arm", "mdry" ]
+        }
+    },
+    "LS8B": {
+        "References": [ "LS8" ]
+    },
+    "LS818": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa047-ls8",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": { 
+            "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/38.manuel-de-maintenance-ls8-18.pdf"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/LS-8-15-18-Meter-BGA-data-sheet.pdf",
+            "Provides": [ "p1arm", "mdry" ]
+        }
+    },
+    "LS8S": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa047-ls8",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": { 
+            "URL": "https://www.aeroclubdesardennes.be/assets/files/ls8-s-sb-flight-man.pdf"
+        }
+    },
+    "LS8SB": {
+        "References": [ "LS8S" ]
+    },
+    "LS8T": {
+        "References": [ "LS8S" ]
+    },
+    "LS8E": {
+        "References": [ "LS8S" ]
+    },
+    "LS10S": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa157-ls-10-series",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2207955/Dg-Flugzeugbau-Ls10-S.html"
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/manual/969332/Dg-Flugzeugbau-Ls10-S.html"
         }
     },
     "MOSQUITO": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
             "URL": "https://manualzz.com/doc/6278006/fllgh-i--and-_service-manual-glasflugel---m-o-s-q-u-i-t-o--"
@@ -714,34 +1285,39 @@
     "MOSQUITOB": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS2": {
-        "FlightManual": {
-            "URL": "https://drive.google.com/drive/folders/13DEAAi1gq5csF8BYXTQF-iHKiYSKnO6p"
-        },
         "TCDS":{
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3/"
+            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://drive.google.com/drive/folders/13DEAAi1gq5csF8BYXTQF-iHKiYSKnO6p"
         }
     },
     "NIMBUS2M": {
         "TCDS":{
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-2m/"
+            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-2m/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS3": {
         "TCDS":{
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3/"
+            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS3T": {
         "TCDS":{
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3t/"
+            "URL": "https://members.gliding.co.uk/library/tcds/nimbus-3t/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS3D": {
@@ -751,48 +1327,58 @@
     },
     "NIMBUS3DT": {
         "TCDS": {
-            "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt-3/"
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt-3/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS3DM": {
         "TCDS": {
-            "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt-3/"
+            "Authority": "LBA",
+            "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt-3/",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS4": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS4T": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS4M": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS4D": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS4DT": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "NIMBUS4DM": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "SPEEDASTIRII":{
@@ -817,26 +1403,37 @@
     "STANDARDCIRRUS":{
         "TCDS": {
             "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL":"https://www.southerneaglessoaring.com/images/Standard_Cirrus_FlightAndServiceManual.pdf",
+            "Provides": [ "p1arm", "distance_a", "distance_b"]
         }
     },
     "STANDARDCIRRUSB":{
         "TCDS": {
             "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard"
-        }
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "STANDARDCIRRUS" ]
     },
     "STANDARDCIRRUS1175L":{
         "TCDS": {
             "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard"
-        }
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "STANDARDCIRRUS" ]
     },
     "STANDARDCIRRUSG":{
         "TCDS": {
             "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard"
-        }
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "STANDARDCIRRUS" ]
     },
     "STANDARDLIBELLE": {
         "TCDS": {
@@ -945,6 +1542,18 @@
         },
         "FlightManual": {
             "URL":"https://www.aeroclubprealpivenete.it/wp-content/uploads/2015/03/Flight-Handbook-Grob-G-103-Twin-Astir-II.pdf"
+        },
+        "AMM": {
+            "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
+        },
+        "RepairManual": {
+            "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
+        }
+    },
+    "TWINASTIRIII": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
         },
         "AMM": {
             "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
