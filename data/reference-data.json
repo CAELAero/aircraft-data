@@ -113,7 +113,7 @@
     "ASK13": {
         "TCDS": {
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/airworthiness/k13/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0267_01.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
@@ -1404,6 +1404,10 @@
             "Authority":"EASA",
             "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312142_nimbus4t.pdf",
+            "Provides": ["mdry"]
         }
     },
     "NIMBUS4M": {
@@ -1418,6 +1422,10 @@
             "Authority":"EASA",
             "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://pesee-centrage.fr/wp-content/uploads/2024/01/MM-Nimbus-4D-standard.pdf",
+            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "wing_ballast_arm", "cockpit_ballast_arm","tail_ballast_arm"]
         }
     },
     "NIMBUS4DT": {
@@ -1425,19 +1433,49 @@
             "Authority":"EASA",
             "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
-        }
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/nimbus4dt.pdf"
+        },
+        "References": [ "NIMBUS4D" ]
     },
     "NIMBUS4DM": {
         "TCDS": {
             "Authority":"EASA",
             "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa063-schempp-hirth",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "NIMBUS4D" ]
+    },
+    "PIK20": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/specific-airworthiness-specifications/easasasa023",
+            "Provides": [ "mauw", "mnlp", "cg_range", "cockpit_ballast_arm", "p1arm", "p1arm_max", "wing_ballast_arm" ]
+        }
+    },
+    "PIK20B": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/specific-airworthiness-specifications/easasasa023",
+            "Provides": [ "mauw", "mnlp", "cg_range", "cockpit_ballast_arm", "p1arm", "p1arm_max", "wing_ballast_arm" ]
+        }
+    },
+    "PIK20D": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL":"https://www.easa.europa.eu/en/document-library/specific-airworthiness-specifications/easasasa024",
+            "Provides": [ "mauw", "mnlp", "cg_range", "cockpit_ballast_arm", "p1arm", "p1arm_max", "wing_ballast_arm" ]            
         }
     },
     "SPEEDASTIRII":{
         "TCDS": {
             "Authority":"EASA",
             "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard"
+        },
+        "FlightManual": {
+            "URL": "https://www.ngc.org.il/image/users/210708/ftp/my_files/sifriya/spidastir.pdf",
+            "Provides": [ "mdry", "p1arm", "wing_ballast_arm" ]
         },
         "OtherData": {
             "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312149_speedastir2.pdf",
@@ -1465,75 +1503,83 @@
         }
     },
     "STANDARDCIRRUSB":{
-        "TCDS": {
-            "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard",
-            "Provides": [ "mauw", "mnlp", "cg_range" ]
-        },
         "References": [ "STANDARDCIRRUS" ]
     },
     "STANDARDCIRRUS1175L":{
-        "TCDS": {
-            "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard",
-            "Provides": [ "mauw", "mnlp", "cg_range" ]
-        },
         "References": [ "STANDARDCIRRUS" ]
     },
     "STANDARDCIRRUSG":{
-        "TCDS": {
-            "Authority":"EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa278-standard",
-            "Provides": [ "mauw", "mnlp", "cg_range" ]
-        },
         "References": [ "STANDARDCIRRUS" ]
     },
     "STANDARDLIBELLE": {
-        "TCDS": {
-            "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
-        }
+        "References": [ "STANDARDLIBELLE201B" ]
     },
     "STANDARDLIBELLE201B": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "AMM": {
-            "URL": "http://old.abqsoaring.org/aircraft_documents/Glasfluegel_Libell_201B_Manual.pdf"
+            "URL": "http://old.abqsoaring.org/aircraft_documents/Glasfluegel_Libell_201B_Manual.pdf",
+            "Provides": [ "mdry", "p1arm", "p1arm_max", "distance_a", "distance_b"]
         }
     },
     "STANDARDLIBELLE203": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa241-glasfluegel",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "SZD481": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa446-szd-48-jantar"
-        }
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa446-szd-48-jantar",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://cpcanuelas.com.ar/wp-content/uploads/flota_monoplazas_jantar-standard-ii-pc_manual-mantenimiento.pdf",
+            "Provides": [ "mdry" ]
+        },
+        "Measured": [
+            {
+                "arms": [ "p1arm", "distance_a", "distance_b" ],
+                "source": "VH-IZX",
+                "date": "19871216" 
+            }
+        ]
     },
     "SZD483": {
         "TCDS": {
             "Authority":"EASA",
             "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa041-allstar-pzl"
+        }, 
+        "FlightManual": {
+            "URL": "https://www.akkralupy.cz/wp-content/uploads/2020/10/SZD-483-Flight-Manual.pdf",
+            "Provides": [ "mdry" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312131_jantarstd3.pdf",
+            "Provides": [ "p1arm", "p1arm_max" ]
         }
     },
     "SZD502": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa041-allstar-pzl"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa041-allstar-pzl",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         }
     },
     "SZD503": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa312-szd-50-3"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa312-szd-50-3",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.ggc.org.au/docs/aircraft/fmanual/SZD50-3%20Puchacz.pdf"
+            "URL": "https://www.ggc.org.au/docs/aircraft/fmanual/SZD50-3%20Puchacz.pdf",
+            "Provides": [ "p1arm", "p2arm", "cockpit_ballast_arm", "baggage_arm" ]
         }
     },
     "SZD511": {
@@ -1547,11 +1593,12 @@
     },
     "SZD551": {
         "TCDS": {
-            "Authority":"Poland",
-            "URL":"https://www.szdallstar.com/media/technische-mitteilungen/szd-55-1-nexus/tcds-bg-163-1-szd-55-1-poland-en.pdf"
+            "Authority":"LBA",
+            "URL":"https://www2.lba.de/data/bb/Segelflug/sp_0401_01.pdf"
         },
         "FlightManual": {
-            "URL": "https://www.aeroklub-edvardrusjan.si/wp-content/uploads/2017/09/szd_55_flight_manual-1.pdf"
+            "URL": "https://www.aeroklub-edvardrusjan.si/wp-content/uploads/2017/09/szd_55_flight_manual-1.pdf",
+            "Provides": [ "mdry", "p1arm", "p1arm_max", "tail_ballast_arm", "cockpit_ballast_arm", "p1_instrument_arm", "baggage_arm", "wing_ballast_arm"]
         },
         "AMM": {
             "URL": "https://www.aeroklub-edvardrusjan.si/wp-content/uploads/2017/09/szd_55_technical_service_manual.pdf"
@@ -1569,7 +1616,8 @@
             "URL": "https://sagach.ch/wp-content/uploads/2024/01/HB3559_AFM_591.4.pdf"
         },
         "AMM": {
-            "URL": "https://www.fyns-svaeveflyveklub.dk/PDF/Medlem/Fly-haandbog/SZD59ACRO-TechnicalServiceManual.pdf"
+            "URL": "https://www.fyns-svaeveflyveklub.dk/PDF/Medlem/Fly-haandbog/SZD59ACRO-TechnicalServiceManual.pdf",
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
         }
     },
     "TWINASTIR": {
@@ -1579,13 +1627,18 @@
         },
         "FlightManual": {
             "Revision": "9",
-            "URL": "https://sggc.org.au/wp-content/uploads/2019/10/Twin-Astir-FH-Rev-9.pdf"
+            "URL": "https://sggc.org.au/wp-content/uploads/2019/10/Twin-Astir-FH-Rev-9.pdf",
+            "Provides": [ "mdry" ]
         },
         "AMM": {
             "URL": "https://sggc.org.au/wp-content/uploads/2019/10/Twin-Astir-FH-Rev-9.pdf"
         },
         "RepairManual": {
             "URL": "https://sggc.org.au/wp-content/uploads/2019/10/Twin-Astir-FH-Rev-9.pdf"
+        }, 
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312151_twinastir.pdf",
+            "Provides": [ "p1arm", "p2arm" ]
         }
     },
     "TWINASTIRII": {
@@ -1594,26 +1647,21 @@
             "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
         },
         "FlightManual": {
-            "URL":"https://www.aeroclubprealpivenete.it/wp-content/uploads/2015/03/Flight-Handbook-Grob-G-103-Twin-Astir-II.pdf"
+            "URL":"https://www.aeroclubprealpivenete.it/wp-content/uploads/2015/03/Flight-Handbook-Grob-G-103-Twin-Astir-II.pdf",
+            "Provides": [ "p1arm", "p2arm" ]
         },
         "AMM": {
             "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
         },
         "RepairManual": {
             "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/Data-sheet-Grob-103-Twin-II-Acro.pdf"
         }
     },
     "TWINASTIRIII": {
-        "TCDS": {
-            "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
-        },
-        "AMM": {
-            "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
-        },
-        "RepairManual": {
-            "URL": "https://www.soarcsa.org/uploads/file/aircraft/Grob%20G103%20Maintenance%20Handbook.pdf"
-        }
+        "References": [ "TWINASTIRII" ]
     },
     "VENTUSB": {
         "FlightManual": {
