@@ -1585,7 +1585,8 @@
     "SZD511": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa309-szd-51-1"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa309-szd-51-1",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
             "URL": "https://shobdongliding.co.uk/pdf/JuniorFlightManual.pdf"
@@ -1594,7 +1595,8 @@
     "SZD551": {
         "TCDS": {
             "Authority":"LBA",
-            "URL":"https://www2.lba.de/data/bb/Segelflug/sp_0401_01.pdf"
+            "URL":"https://www2.lba.de/data/bb/Segelflug/sp_0401_01.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
             "URL": "https://www.aeroklub-edvardrusjan.si/wp-content/uploads/2017/09/szd_55_flight_manual-1.pdf",
@@ -1610,7 +1612,8 @@
     "SZD591": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa310-szd-59-acro"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa310-szd-59-acro",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
             "URL": "https://sagach.ch/wp-content/uploads/2024/01/HB3559_AFM_591.4.pdf"
@@ -1623,7 +1626,8 @@
     "TWINASTIR": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
             "Revision": "9",
@@ -1644,7 +1648,8 @@
     "TWINASTIRII": {
         "TCDS": {
             "Authority":"EASA",
-            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes"
+            "URL":"https://www.easa.europa.eu/en/document-library/type-certificates/noise/easaa250-grob-sailplanes",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
             "URL":"https://www.aeroclubprealpivenete.it/wp-content/uploads/2015/03/Flight-Handbook-Grob-G-103-Twin-Astir-II.pdf",
@@ -1663,59 +1668,184 @@
     "TWINASTIRIII": {
         "References": [ "TWINASTIRII" ]
     },
+    "VENTUSA": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa274-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/Ventus-a-b-Data-sheet.pdf",
+            "Provides": [ "p1arm"]
+        }
+    },
     "VENTUSB": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa274-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://www.flyavm.it/manuali/Ventus_b.pdf"
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Ventus_B_Flight_Manual.pdf",
+            "Provides": [ "cockpit_ballast_arm", "p1arm", "baggage_arm", "tail_ballast_arm"]
+        }
+    },
+    "VENTUSC": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa274-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312153_ventusc.pdf",
+            "Provides": [ "p1arm" ]
+        }
+    },
+    "VENTUSBT": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa301-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "VENTUSB" ],
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312152_ventusbt.pdf"
+        }
+    },
+    "VENTUSCM": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa301-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "VENTUSC" ],
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312153_ventusc.pdf",
+            "Provides": [ "p1arm" ]
+        }
+    },
+    "VENTUSCT": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa301-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "http://www.smbc-eferding.at/wp-content/uploads/2014/01/Ventus-CT-Flughandbuch.pdf",
+            "Provides": [ "p1arm", "cockpit_ballast_arm", "fuselage_fuel_arm", "tail_ballast_arm", "wing_ballast_arm", "baggage_arm"]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2020/07/Ventus-ct-data-sheet.pdf",
+            "Provides": [ "p1arm", "fuselage_fuel_arm" ]
         }
     },
     "VENTUS2A": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa274-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
             "URL": "https://www.manualslib.de/download/113895/Schempp-Hirth-Flugzeugbau-Ventus-2B.html"
+        },
+        "AMM": {
+            "URL": "https://www.scribd.com/document/665568612/Ventus-2a-Maintenace-manual-2000-ver-11",
+            "Provides": [ "distance_a", "distance_b", "p1arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm"]
+        }
+    },
+    "VENTUS2B": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa274-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.de/download/113895/Schempp-Hirth-Flugzeugbau-Ventus-2B.html"
+        },
+        "AMM": {
+            "URL": "https://www.scribd.com/document/665568612/Ventus-2a-Maintenace-manual-2000-ver-11",
+            "Provides": [ "wing_ballast_arm" ]
         }
     },
     "VENTUS2C": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa274-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/2499400/Flugzeugbau-Ventus-2c.html"
         }
     },
     "VENTUS2CT": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa301-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "FlightManual": {
-            "URL": "https://svaevethy.dk/wp-content/uploads/2014/05/Ventus-2cT-SW-part-2.pdf"
+            "URL": "https://svaevethy.dk/wp-content/uploads/2014/05/Ventus-2cT-SW-part-2.pdf",
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
         }
     },
     "VENTUS2CM": {
-        "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/2542645/Schempp-Hirth-Flugzeugbau-Ventus-2cm.html"
-        }
-    },
-    "VENTUS3M": {
-        "AMM": {
-            "URL": "https://www.manualslib.com/download/3500364/Schempp-Hirth-Flugzeugbau-Ventus-3m.html"
-        },
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa301-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2542645/Schempp-Hirth-Flugzeugbau-Ventus-2cm.html",
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm", "fuselage_fuel_arm"]
+        }
+    },
+    "VENTUS2CFES": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa301-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "VENTUS2CM" ]
+    },
+    "VENTUS3M": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "AMM": {
+            "URL": "https://www.manualslib.com/download/3500364/Schempp-Hirth-Flugzeugbau-Ventus-3m.html",
+            "Provides": [ "distance_a","distance_b", "p1arm", "wing_ballast_arm", "cockpit_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "fuselage_fuel_arm"]
+        },
+        "FlightManual": {
+            "URL": "https://www.scribd.com/document/607856699/Manual-ventus3"
         }
     },
     "VENTUS3T": {
-        "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/2096346/Schempp-Hirth-Flugzeugbau-Ventus-3t-Sport.html"
-        },
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/manual/2096346/Schempp-Hirth-Flugzeugbau-Ventus-3t-Sport.html",
+            "Provides":[ "wing_ballast_arm", "tail_ballast_arm", "cockpit_ballast_arm"]
         }
     },
     "VENTUS3F": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
-        }
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "VENTUS3M" ]
     },
     "VENTUS3E": {
         "TCDS": {
             "Authority": "EASA",
-            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth"
-        }
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa627-schempp-hirth",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "References": [ "VENTUS3M" ]
     }
 }
