@@ -359,41 +359,32 @@ VENTUSCM,utility,17.6,,WRLE,1000:44 rear top of rear fuselage,model_1,430,430,30
 VENTUSCT,utility,15,,WRLE,1000:44 rear top of rear fuselage,model_1,430,430,280,0,0,200,325,-518,,,-1745,4196,,167,400,,300,,0,0
 VENTUSCT,utility,16.6,,WRLE,1000:44 rear top of rear fuselage,model_1,430,430,280,0,0,200,325,-518,,,-1745,4196,,167,400,,300,,0,0
 VENTUSCT,utility,17.6,,WRLE,1000:44 rear top of rear fuselage,model_1,430,430,280,0,0,200,325,-518,,,-1745,4196,,167,400,,300,,0,0
-
 VENTUS2A,utility,15,S/N 1-21,WRLE,1000:31 rear top of rear fuselage,model_1,525,525,230,110,0,220,360,-455,,,-1635,3900,,179,,,,,106,3885
 VENTUS2A,utility,15,S/N After 21,WRLE,1000:31 rear top of rear fuselage,model_1,525,525,235,110,0,220,360,-455,,,-1635,3900,,179,,,,,106,3885
-
 VENTUS2B,utility,15,S/N 3-19,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,230,110,0,220,360,-518,,,-1745,4050,,179,,,,,106,4050
 VENTUS2B,utility,15,S/N After 22,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,235,110,0,220,360,-518,,,-1745,4050,,179,,,,,106,4050
 VENTUS2B,utility,15,S/N After 162 with Mod 349-47,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,280,110,0,220,360,-518,,,-1745,4050,,179,,,,,106,4050
-
 VENTUS2C,utility,15,,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,250,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2C,utility,15,HV6,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,280,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
-
 VENTUS2C,utility,18,,WRLE,1000:30 (A fuselage) or 1000:44 (B fuselage) rear top of rear fuselage,model_1,500,500,250,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2C,utility,18,TN 349-21,WRLE,1000:30 (A fuselage) or 1000:44 (B fuselage) rear top of rear fuselage,model_1,525,525,250,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2C,utility,18,S/N 82 onwards with Mod 349-46,WRLE,1000:30 (A fuselage) or 1000:44 (B fuselage) rear top of rear fuselage,model_1,565,565,280,110,0,260,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2C,utility,18,S/N 82 onwards with TN 349-32,WRLE,1000:30 (A fuselage) or 1000:44 (B fuselage) rear top of rear fuselage,model_1,600,600,280,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2C,utility,18,S/N 107 onwards with TN 349-32 and Mod 349-46 in A model fuselage,WRLE,1000:30 (A fuselage) or 1000:44 (B fuselage) rear top of rear fuselage,model_1,600,600,280,110,0,260,380,-530,,,-1740,4275,,179,,,,,0,0
-
 VENTUS2CT,utility,15,,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,300,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2CT,utility,15,EV6,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,310,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
-
 VENTUS2CT,utility,18,,WRLE,1000:44 rear top of rear fuselage,model_1,500,500,300,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2CT,utility,18,S/N 8 onwards with TN 825-19,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,300,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2CT,utility,18,S/N 108 onwards with mod 825-44,WRLE,1000:44 rear top of rear fuselage,model_1,565,565,310,110,0,260,380,-530,,,-1740,4275,,179,,,,,0,0
 VENTUS2CT,utility,18,S/N 108 onwards with TN 825-37,WRLE,1000:44 rear top of rear fuselage,model_1,600,600,310,110,0,250,380,-530,,,-1740,4275,,179,,,,,0,0
-
 VENTUS2CM,utility,18,,WRLE,1000:44 rear top of rear fuselage,model_1,500,500,330,110,0,290,380,-530,,,-1740,4275,,179,,,335,,0,0
 VENTUS2CM,utility,18,TN 825-19,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,330,110,0,290,380,-530,,,-1740,4275,,179,,,335,,0,0
 VENTUS2CM,utility,18,S/N 137 onwards Mod 825-44,WRLE,1000:44 rear top of rear fuselage,model_1,565,565,330,110,0,290,380,-530,,,-1740,4275,,179,,,335,,0,0
 VENTUS2CM,utility,18,S/N 137 onwards TN 825-37/2,WRLE,1000:44 rear top of rear fuselage,model_1,600,600,340,110,0,290,380,-530,,,-1740,4275,,179,,,335,,0,0
 VENTUS2CM,utility,18,Self Launch S/N 137 onwards TN 825-37/2,WRLE,1000:44 rear top of rear fuselage,model_1,580,580,340,110,0,290,380,-530,,,-1740,4275,,179,,,335,,0,0
 VENTUS2CFES,utility,18,,WRLE,1000:30 rear top of rear fuselage,model_1,600,600,310,110,0,260,380,-530,,,-1740,4275,,179,,,,,0,0
-
 VENTUS3T,utility,15,,WRLE,1000:44 rear top of rear fuselage,model_1,525,525,320,110,0,300,430,-580,,,-1800,4194,4120,194,,,,,52,4145
 VENTUS3T,utility,18,,WRLE,1000:44 rear top of rear fuselage,model_1,600,600,320,110,0,300,430,-580,,,-1800,4194,4120,194,,,,,52,4145
-
 VENTUS3M,utility,18,Steerable Tail Wheel,WRLE,1000:44 rear top of rear fuselage,model_1,600,545,365,115,0,300,430,-580,,,-1800,4194,4120,194,,,425,,52,4366
 VENTUS3M,utility,18,Fixed Tail Wheel,WRLE,1000:44 rear top of rear fuselage,model_1,600,545,365,115,0,300,430,-580,,,-1800,4194,4120,194,,,425,,52,4145
 VENTUS3F,utility,18,,WRLE,1000:30 rear top of rear fuselage,model_1,600,600,320,110,0,300,430,-580,,,-1800,4194,4120,194,,,,,52,4145
