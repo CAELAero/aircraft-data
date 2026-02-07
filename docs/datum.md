@@ -48,19 +48,22 @@ The file format is standard CSV. String, will be quoted only if needed to escape
 |mnlp| number | Maximum Non-Lifting Parts weight|
 |max seat| number | Max permitted seat weight. Does not include other cockpit weights like baggage |
 |min seat| number | Minimum permitted seat weight, excluding the use of cockpit ballast weights |
+|max cockpit| number | Maximum total load in the cockpit |
 |fwd cg| number | Foward CG location |
 |aft cg| number | Aft CG location|
 |p1arm| number | Arm for Pilot 1|
 |p1arm max| number | If a range is specified for the P1 arm, this is the value that is furthest from the datum |
 |p2arm| number | Arm for Pilot 2. Only used in 2 seaters |
-|cockpit ballast arm| number | Arm to the cockpit ballast location |
-|tail ballast arm| number | Arm to the primary ballast in the tail for compensating for CG adjustment. |
+|cockpit ballast arm| array of numbers | Arms to the cockpit ballast location, sorted from front to back of aircraft |
+|tail wing ballast arm| number | Arm to the primary ballast in the tail for compensating for wing ballast |
+|tail cg ballast arm| number | Arm to the primary ballast in the tail for compensating for CG adjustment |
 |tail battery arm| number | Arm to the (often optional) battery located in the tail |
 |wing ballast arm| number | Arm to the ballast tanks in the wing |
-|baggage arm| number | Arm to the primary baggage compartment |
+|baggage arm| array of numbers | Arm to the primary baggage compartment, sorted from front to back of aircraft |
 |wing fuel arm| number | Arm to fuel tanks located in the wings |
-|fuselage fuel arm| number | Arm to the fuel tank located in the fuselage |
+|fuselage fuel arm| array of numbers | Arm to the fuel tank located in the fuselage, sorted from front to back of aircraft |
 |p1 instrument arm| number | Arm to the instrument panel for Pilot 1|
+|p2 instrument arm| number | Arm to the instrument panel for Pilot 2|
 |wheel to datum| number | Distance from the datum to the primary wheel - typically distance "a" in W&B diagrams |
 |wheel to tailwheel| number | Distance from the primary wheel to the tail wheel/skid location - typically distance "b" in W&B diagrams |
 
@@ -82,3 +85,9 @@ The weight and balance calculation model to use (ie to understand what the dista
 |model_1a| Taildragger configuration with the main wheel in front of the datum. Not often found in gliders |
 |model_2| Aircraft that primarily sit forward on the nose, with the tail in the air. Main wheel is behind CG and datum |
 |model_3| Wheels are not considered in the weighing. Typically used if a forward skid touches the ground before the aircraft reachs the required levelling |
+
+### Array of numbers
+
+When a field can have multiple values of the same type, then you may see it in array form. They are represented with each
+number being separated by a colon ':' character. If any element of the array is invalid number then it will be discarded
+by the parser.

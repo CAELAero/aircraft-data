@@ -12,7 +12,9 @@ bower install @cael-aero/aircraft-data --save
 
 ## Format
 
-Files are in standard CSV formatting. Dates are ISO6801, without timestamps. 
+Files are in either standard CSV format or JSON files for complex structured data. Dates are ISO6801, without timestamps. No 
+timezone is defined, because it is irrelevant to the data being described. The dates are to confirm which doc was read
+from the items in the aircraft logbook, or when this was last updated.
 
 ### Type Certificate Name Handling
 
@@ -26,13 +28,16 @@ to the raw name that is often found in data files from CASA or the GFA.
 1. Convert all characters to upper case
 2. Remove the following punctuation characters: ' ', '-', '_', '.', '/', '\\', '"', '''
 
-# Data Available 
+## Data Available 
 
+| Type of data | Source File | Description of file format |
+|----|----|----|
 | Weight and Balance Datum | [weight-and-balance-datum.csv](data/weight-and-balance-datum.csv) | [Definition](docs/datum.md)|
-| References | [reference-data.json](data/reference-data.json) | [Definition](docs/reference-data.md) |
 | Aircraft Configuration | [aircraft-configuration.csv](data/aircraft-configuration.csv)| [Definition](docs/aircraft-config.md)|
- 
-# Data Validity
+| Aircraft Limits | | [Definition](docs/aircraft-limits.md)|
+| References | [reference-data.json](data/reference-data.json) | [Definition](docs/reference-data.md) |
+
+## Data Validity
 
 This data has been collected and verified to the best of our ability. Where possible we will list the source of the datum information
 so that you can double check. There core data is typically found in the Type Certifcate Data Sheet. However, the more esoteric data,
@@ -40,7 +45,7 @@ such as tail ballast arms are usually found from less trustworthy sources - such
 Association has a pretty extensive collection, as well as some from Gliding Australia. Were we can verify these, it will be labelled
 as such. Some you may need to re-validate yourself. 
 
-# Updating Data
+## Updating Data
 
 If you have data that you'd like to submit to the repository, or corrections to data, please use the Ticket creation button here
 and provide as much relevant information as possible. Please cite the source of your data as part of the ticket. If you're more
@@ -53,4 +58,6 @@ LICENSE file in the root directory of this source tree.
 
 ## Related Projects
 
-Weight and Balance Calculation Library: https://github.com/CAELAero/weight-and-balance
+Weight and Balance Calculation Library: https://github.com/CAELAero/weight-and-balance This also contains
+loaders, exporters and Javascript/Typescript objects that represent the data files contained in this
+repository.

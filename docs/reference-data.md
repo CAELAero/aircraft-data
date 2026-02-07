@@ -18,6 +18,7 @@ as described below.
 | OtherData | Object | Details about other supplementary data documentation - typically the BGA data sheet that has data no found elsewhere |
 | Unverified | Array of strings | List of the datum fields that we have values for but cannot be verified from other sources |
 | Measured | Array of objects | List of datum fields that are populated by directly measured values off specific aircraft | 
+| Notes | Array of strings | Other notes about assumptions made for this particular type certificate |
 
 ### TCDS Object 
 

@@ -1022,7 +1022,10 @@
         },
         "AMM": {
             "URL": "https://jonker-sailplanes.com/wp-content/uploads/2025/09/MD11-AMM-00-001_I02_-JS-MD-3-RES-AMM_Signed_compressed.pdf"
-        }
+        },
+        "Notes": [
+            "Arm for the two CG compensation tanks has been averaged of the distances between the two"
+        ]
     },
     "KESTREL": {
         "TCDS": {
