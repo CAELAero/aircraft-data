@@ -15,7 +15,7 @@
         },
         "AMM": {
             "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/16.manuel-de-maintenance-arcus-t.pdf",
-            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "p1_instrument_arm", "cockpit_ballast_arm", "wing_ballast_arm", "fuselage_fuel_arm", "tail_battery_arm", "tail_ballast_arm" ]
+            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "p1_instrument_arm", "cockpit_ballast_arm", "wing_ballast_arm", "fuselage_fuel_arm", "tail_battery_arm", "tail_wing_ballast_arm" ]
         }
     },
     "ARCUSM": {
@@ -26,7 +26,11 @@
         },
         "AMM": {
             "URL": "https://www.scribd.com/document/815126371/Arcus-M-Maintenance-Manual-English",
-            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "p1_instrument_arm", "cockpit_ballast_arm", "wing_ballast_arm", "wing_fuel_arm", "fuselage_fuel_arm", "tail_battery_arm", "tail_ballast_arm"]
+            "Provides": [ "mdry", "distance_a", "distance_b", "p1arm", "p2arm", "p1_instrument_arm", "cockpit_ballast_arm", "wing_ballast_arm", "wing_fuel_arm", "fuselage_fuel_arm", "tail_battery_arm", "tail_wing_ballast_arm"]
+        },
+        "FlightManual": {
+            "URL": "https://cdn.website-editor.net/2c48f30e45a74490b5df1fbd6bc3f946/files/uploaded/Flight%2520Manual%2520Arcus%2520M_V2.pdf",
+            "Provides": [ "mdry" ]
         }
     },
     "ASH25": {
@@ -107,7 +111,11 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/2231313/Alexander-Schleicher-Ash-31-Mi.html",
-            "Provides": []
+            "Provides": [ "mdry"]
+        },
+        "AMM": {
+            "URL": "https://motorglider.org/publications/manuals/schleicher-manuals/ash-31mi-maintenance-manual.html",
+            "Provides": [ "p1arm", "p1arm_max", "wing_ballast_arm", "baggage_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "tail_wing_ballast_arm", "p1_instrument_arm", "distance_a", "distance_b"]
         }
     },
     "ASK13": {
@@ -132,7 +140,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/4083142/Alexander-Schleicher-Ask-21.html",
-            "Provides": []
+            "Provides": [ "cockpit_ballast_arm", "baggage_arm", "p1arm", "p1arm_max", "p2arm"]
         },
         "References": [ "ASK21MI" ]
     },
@@ -155,11 +163,10 @@
         },
         "AMM": {
             "URL": "https://www.manualslib.com/manual/3116321/Alexander-Schleicher-Ask-21-B.html",
-            "Provides": [ "max_seat", "p1arm", "p1arm_max", "p2arm", "p1_instrument_arm", "distance_a", "distance_b"]
+            "Provides": [ "p1arm", "p1arm_max", "p2arm", "p1_instrument_arm", "distance_a", "distance_b", "cockpit_ballast_arm", "baggage_arm", "p1_instrument_arm", "p2_instrument_arm"]
         },
         "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/3327714/Alexander-Schleicher-Ask-21-B.html",
-            "Provides": []
+            "URL": "https://www.manualslib.com/manual/3327714/Alexander-Schleicher-Ask-21-B.html"
         }
     },
     "ASW19": {
@@ -172,7 +179,8 @@
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.airsailing.org/downloads/NSA_Gliders/ASW19b-Flight-Manual.pdf"
+            "URL": "https://www.airsailing.org/downloads/NSA_Gliders/ASW19b-Flight-Manual.pdf",
+            "Provides": [ "distance_a", "distance_b"]
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW-19-19B-Data-sheet.pdf",
@@ -186,13 +194,14 @@
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://mgrim.nl/_downloads/asw20l/asw20-flight-manual.pdf"
+            "URL": "https://mgrim.nl/_downloads/asw20l/asw20-flight-manual.pdf",
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "p1_instrument_arm" ]
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW-20-20F-Data-sheet.pdf",
             "Provides": [ "mdry" ]            
         },
-        "Unverified": [ "cockpit_ballast_arm", "p1_instrument_arm"]
+        "Unverified": [ "cockpit_ballast_arm"]
     },
     "ASW20L": {
         "TCDS": {
@@ -201,7 +210,8 @@
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.schellenberg.nl/frank/Tools/Gliding/PH1586/Manuals/ASW20L%20-%20Flight%20And%20Operations%20Manual.html"
+            "URL": "https://www.schellenberg.nl/frank/Tools/Gliding/PH1586/Manuals/ASW20L%20-%20Flight%20And%20Operations%20Manual.html",
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "p1_instrument_arm" ]
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW-20-20F-Data-sheet.pdf",
@@ -227,31 +237,41 @@
     "ASW24": {
         "TCDS": {
             "Authority":"LBA",
-            "URL": "https://members.gliding.co.uk/library/tcds/asw24-2/",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0366_01.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.williamssoaring.com/fleet/ASW24_manual.pdf",
-            "Provides": [ "mdry" ]
+            "URL": "https://www.williamssoaring.com/fleet/ASW24_manual.pdf"
         },
         "AMM": {
             "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/240_TM02_E_HB.pdf",
-            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_battery_arm", "p1_instrument_arm", "baggage_arm"]
+            "Provides": [ "mdry", "max_cockpit", "p1arm", "p1arm_max", "cockpit_ballast_arm", "wing_ballast_arm", "tail_battery_arm", "p1_instrument_arm", "baggage_arm", "distance_a", "distance_b"]
         },
         "OtherData": {
-            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW24.pdf",
-            "Provides": [ "mdry" ]
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASW24.pdf"
         }
     },
     "ASW24B": {
+        "TCDS": {
+            "Authority":"LBA",
+            "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0366_02.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
         "References": [ "ASW24" ]
+    },
+    "ASW24E": {
+        "References": [ "ASW24" ],
+        "Notes": [
+            "No TCDS can be found on the internet. EASA references a LBA TC 859, but LBA's TCDS list does not include the 24E"
+        ]
     },
     "ASW24TOP": {
         "TCDS": {
             "Authority": "EASA",
             "URL": "https://www.easa.europa.eu/en/downloads/137512/en",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
-        }
+        },
+        "References": [ "ASW24" ]
     },
     "ASW27": {
         "TCDS": {
@@ -267,9 +287,6 @@
             "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa220-schleicher-asw",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
-        "FlightManual": {
-            "URL": "https://www.scribd.com/document/684284451/Flughandbuch-ASG29Es"
-        },
         "References": [ "ASW2718E" ]
     },
     "ASW2718E": {
@@ -283,7 +300,7 @@
         },
         "AMM": {
             "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/37.manuel-de-maintenance-asg-29.pdf",
-            "Provides": [ "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "fuselage_fuel_arm", "baggage_arm"]
+            "Provides": [ "p1arm", "p1arm_max", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "fuselage_fuel_arm", "baggage_arm"]
         }
     },
     "ASW28": {
@@ -310,7 +327,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/3514970/Alexander-Schleicher-As-33-Es-2020.html",
-            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "cockpit_ballast_arm", "fuselage_fuel_arm", "tail_ballast_arm", "tail_battery_arm" ]
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "cockpit_ballast_arm", "fuselage_fuel_arm", "tail_wing_ballast_arm", "tail_battery_arm" ]
         }
     },
     "AS33ME": {
@@ -413,11 +430,10 @@
         },
         "AMM": {
             "URL": "https://aeroklublivno.org/wp-content/uploads/2017/01/DG100_100_Elan_manual.pdf",
-            "Provides": [ "mdry", "baggage_arm", "wing_ballast_arm", "cockpit_ballast_arm"]
+            "Provides": [ "mdry", "baggage_arm", "wing_ballast_arm"]
         },
         "OtherData": {
-            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-100-Data-sheet.pdf",
-            "Provides":["p1arm", "p1arm_max"]
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-100-Data-sheet.pdf"
         }
     },
     "DG100G": {
@@ -426,13 +442,18 @@
             "URL":"https://www.easa.europa.eu/sites/default/files/dfu/TCDS_EASA.A.239_DG-SingleSeaters_issue_11.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
-        "AMM": {
+        "FlightManual": {
             "URL": "http://aviation.derosaweb.net/dg101/documentation/DG100G_Elan_Manual.pdf",
-            "Provides": [ "mdry", "baggage_arm", "wing_ballast_arm", "cockpit_ballast_arm" ]
+            "Provides": [ "p1arm", "p1arm_max", "mdry", "baggage_arm", "wing_ballast_arm" ]
+        },
+        "AMM": {
+            "URL": "http://aviation.derosaweb.net/dg101/documentation/DG100G_Elan_Manual.pdf"
+        },
+        "RepairManual": {
+            "URL": "http://aviation.derosaweb.net/dg101/documentation/DG100G_Elan_Manual.pdf"
         },
         "OtherData": {
-            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-100G-Elan-data-sheet.pdf",
-            "Provides":["p1arm", "p1arm_max"]
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-100G-Elan-data-sheet.pdf"
         }
     },
     "DG100ELAN": {
@@ -452,8 +473,7 @@
             "Provides": [ "mdry" ]
         },
         "AMM": {
-            "URL": "https://www.manualslib.com/manual/2305268/Dg-Flugzeugbau-Dg200.html",
-            "Provides": [ "p1arm", "p1arm_max" ]
+            "URL": "https://www.manualslib.com/manual/2305268/Dg-Flugzeugbau-Dg200.html"
         },
         "RepairManual": {
             "URL": "https://www.manualslib.com/manual/2305268/Dg-Flugzeugbau-Dg200.html"
@@ -469,7 +489,8 @@
     "DG20017C": {
         "References":[ "DG200" ],
         "OtherData": {
-            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-202-17C-Carbon-fibre-version-BGA-data-sheet.pdf"
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/DG-202-17C-Carbon-fibre-version-BGA-data-sheet.pdf",
+            "Provides":["p1arm", "p1arm_max"]
         }
     },
     "DG300": {
@@ -483,8 +504,15 @@
         },
         "AMM": {
             "URL": "https://www.fyns-svaeveflyveklub.dk/PDF/Medlem/Fly-haandbog/DG300_Elan_MM%202xA5.pdf",
-            "Provides":[ "p1arm", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm"]
+            "Provides":[ "p1arm", "baggage_arm", "wing_ballast_arm", "tail_wing_ballast_arm" ]
         },
+        "Measured": [
+            {
+                "arms": [ "distance_a", "distance_b" ],
+                "source": "VH-DGU",
+                "date": "20201117"
+            }
+        ],
         "Unverified": [ "cockpit_ballast_arm" ]
     },
     "DG300ELAN": {
@@ -515,7 +543,6 @@
         "RepairManual": {
             "URL": "https://www.manualslib.com/manual/3786846/Dg-Flugzeugbau-Dg-400.html"
         }
-
     },
     "DG600":{
         "TCDS":{
@@ -525,7 +552,7 @@
         },
         "FlightManual": {
             "URL": "https://ic.captainchristian.fr/wp-content/uploads/2020/09/DG600-18_FM-manuel-de-vol.pdf",
-            "Provides":["p1arm","p1arm_max","wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "baggage_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
+            "Provides":[ "mdry", "p1arm","p1arm_max","wing_ballast_arm", "tail_wing_ballast_arm", "tail_battery_arm", "baggage_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
         }
     },
     "DG60018": {
@@ -544,7 +571,8 @@
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://pesee-centrage.fr/wp-content/uploads/2024/01/DG800A_FM.pdf"
+            "URL": "https://pesee-centrage.fr/wp-content/uploads/2024/01/DG800A_FM.pdf",
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "p1_instrument_arm","distance_b"]
         }
     },
     "DG808C": {
@@ -569,7 +597,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/1267367/Dg-Flugzeugbau-Dg-800b.html",
-            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "p1_instrument_arm","distance_b"]
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
         }
     },
     "DG800S": {
@@ -580,7 +608,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/2228228/Dg-Flugzeugbau-Dg-800s.html",
-            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "cockpit_ballast_arm", "p1_instrument_arm","distance_b"]
+            "Provides":[ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
         },
         "RepairManual": {
             "URL":"https://www.manualslib.com/manual/1300759/Dg-Flugzeugbau-Dg-800s.html"
@@ -608,7 +636,7 @@
         },
         "FlightManual": {
             "URL":"https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/DG-500-Orion-Flight-Manual.pdf",
-            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm"]
+            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "p2_instrument_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm"]
         },
         "AMM": {
             "URL": "https://static1.squarespace.com/static/581f5f9129687f6b1d73b1e8/t/58e5b55b1b10e3fbacecb94d/1491449220863/DG500_MaintenanceManual.pdf"
@@ -626,7 +654,7 @@
         },
         "FlightManual": {
             "URL":"https://alvsbyflygklubb.se/instruk/DG500ManualEng.pdf",
-            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "tail_battery_arm", "cockpit_ballast_arm"]
+            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "p2_instrument_arm", "tail_battery_arm", "cockpit_ballast_arm"]
         }
     },
     "DG500M": {
@@ -637,7 +665,7 @@
         },
         "FlightManual": {
             "URL":"https://www.adelaidesoaring.org.au/wp-content/uploads/2019/07/DG-500-Orion-Flight-Manual.pdf",
-            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm","fuselage_fuel_arm"]
+            "Provides":[ "p1arm", "p1arm_max", "p2arm", "baggage_arm", "p1_instrument_arm", "p2_instrument_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm","fuselage_fuel_arm"]
         },
         "AMM": {
             "URL":"https://www.manualslib.com/manual/995620/Dg-Flugzeugbau-Dg-500m.html"
@@ -654,7 +682,7 @@
         },
         "FlightManual": {
             "URL": "https://ddsc.org.au/wp-content/uploads/2021/10/DG1000S-Flight-Manual.pdf",
-            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm" ]
+            "Provides": [ "p1arm", "p1arm_max", "max_cockpit", "baggage_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_cg_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "p2_instrument_arm" ]
         }, 
         "RepairManual": {
             "URL": "https://www.manualslib.com/manual/1300764/Dg-Flugzeugbau-Dg-1000.html"
@@ -668,7 +696,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/1300766/Dg-Flugzeugbau-Dg-1000.html",
-            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "fuselage_fuel_arm" ]
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_cg_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "p2_instrument_arm", "fuselage_fuel_arm" ]
         }, 
         "RepairManual": {
             "URL": "https://www.manualslib.com/manual/1300764/Dg-Flugzeugbau-Dg-1000.html"
@@ -685,7 +713,7 @@
         },
         "FlightManual": {
             "URL": "https://klubbenonline.objects.dc-sto1.glesys.net/HVSYstkSaF9FJM74/y1j6OQIRuzA0s5fvuC6SUpGHeQkuPL5BttTrdI28.pdf",
-            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "fuselage_fuel_arm" ]
+            "Provides": [ "p1arm", "p1arm_max", "baggage_arm", "wing_ballast_arm", "tail_cg_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm", "p1_instrument_arm", "p2_instrument_arm", "fuselage_fuel_arm" ]
         }, 
         "RepairManual": {
             "URL": "https://www.manualslib.com/manual/1300764/Dg-Flugzeugbau-Dg-1000.html"
@@ -761,7 +789,7 @@
         },
         "FlightManual": {
             "URL": "https://static1.squarespace.com/static/581f5f9129687f6b1d73b1e8/t/5913c8e86a49634ba558757c/1494468864447/Discus2FlightManual.pdf",
-            "Provides":[ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
+            "Provides":[ "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm"]
         }
     },
     "DISCUSC2C": {
@@ -795,7 +823,7 @@
         },
         "AMM": {
             "URL": "https://ic.captainchristian.fr/wp-content/uploads/2023/04/MM-Discus-2cFES-Rev.-0.pdf",
-            "Provides": [ "distance_a", "distance_b", "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm"]
+            "Provides": [ "distance_a", "distance_b", "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_battery_arm"]
         }
     },
     "DUODISCUS": {
@@ -806,7 +834,7 @@
         },
         "FlightManual": {
             "URL": "https://aeroclubnimbus.aero/wp-content/uploads/2020/05/Duo_Discus_en_sn_414.pdf",
-            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm"]
         }
     },
     "DUODISCUSC": {
@@ -817,7 +845,7 @@
         },
         "FlightManual": {
             "URL": "https://aeroclubnimbus.aero/wp-content/uploads/2020/05/Duo_Discus_en_sn_414.pdf",
-            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm"]
         },
         "References": [ "DUODISCUST"]
     },
@@ -829,13 +857,13 @@
         },
         "AMM": {
             "URL": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=13313941&FileExtension=pdf&FileName=MM%20Duo%20T%20Rev%200%20kpl-Rel.pdf",
-            "Provides": [ "p1arm", "p2arm", "wing_ballast_arm", "tail_ballast_arm", "fuselage_fuel_arm"]
+            "Provides": [ "p1arm", "p2arm", "wing_ballast_arm", "tail_wing_ballast_arm", "fuselage_fuel_arm"]
         }
     },
     "DUODISCUSXL": {
         "FlightManual": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Duo_Discus_xL_Flight_Manual.pdf",
-            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm"]
         }
     },
     "GLASFLUGEL604": {
@@ -930,9 +958,7 @@
             "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0295_01.pdf",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
-        "AMM": {
-            "URL": "https://www.darltonglidingclub.co.uk/wp/wp-content/uploads/2021/02/Janus-FM.pdf"
-        }
+        "References" : [ "JANUSB" ]
     },
     "JANUSB": {
         "TCDS": {
@@ -950,7 +976,8 @@
             "Authority": "LBA",
             "URL": "https://members.gliding.co.uk/library/tcds/janus-bm/",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
-        }
+        },
+        "References": [ "JANUSB" ]
     },
     "JANUSC": {
         "TCDS": {
@@ -960,7 +987,7 @@
         },
         "FlightManual": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/janus_c_flight_manual-light.pdf",
-            "Provides": [ "p1arm", "p2arm", "baggage_arm", "cockpit_ballast_arm"]
+            "Provides": [ "p1arm", "p2arm", "baggage_arm" ]
         },
         "AMM": {
             "URL": "https://www.planeur-bailleau.org/wp-content/uploads/2023/08/42.manuel-de-maintenance-janus-c.pdf",
@@ -983,7 +1010,14 @@
             "Authority": "LBA",
             "URL": "https://members.gliding.co.uk/library/tcds/janus-ct-2/",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
-        }
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/library/tcds/janus-ct/",
+            "Provides": [ "fuselage_fuel_arm" ]
+        },
+        "Notes": [
+            "BGA datasheet says fuel tank is in front of datum (ie between P1 and P2), which doesn't seem possible. Placed position behind datum."
+        ]
     },
     "JANUSCM": {
         "References": ["JANUSCT" ]
@@ -996,7 +1030,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/2811283/Jonker-Sailplanes-Js1-Revelation.html",
-            "Provides": [ "p1arm", "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "baggage_arm", "fuselage_fuel_arm"]
+            "Provides": [ "p1arm", "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_cg_ballast_arm", "tail_battery_arm", "baggage_arm", "fuselage_fuel_arm"]
         },
         "AMM": {
             "URL": "https://www.manualslib.com/manual/2249051/Jonker-Sailplanes-Js1-Series.html"
@@ -1018,14 +1052,11 @@
         },
         "FlightManual": {
             "URL": "https://jonker-sailplanes.com/wp-content/uploads/2025/09/MD11-AFM-00-001-I01.30_JS-MD-3-RES-Powered-Aircraft-Flight-Manual_APPROVED_compressed.pdf",
-            "Provides": [ "p1arm", "cockpit_ballast_arm", "baggage_arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm"]
+            "Provides": [ "mdry", "p1arm", "cockpit_ballast_arm", "baggage_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_cg_ballast_arm", "tail_battery_arm", "fuselage_battery_arm" ]
         },
         "AMM": {
             "URL": "https://jonker-sailplanes.com/wp-content/uploads/2025/09/MD11-AMM-00-001_I02_-JS-MD-3-RES-AMM_Signed_compressed.pdf"
-        },
-        "Notes": [
-            "Arm for the two CG compensation tanks has been averaged of the distances between the two"
-        ]
+        }
     },
     "KESTREL": {
         "TCDS": {
@@ -1378,7 +1409,8 @@
             "URL": "https://www2.lba.de/data/bb/Segelflug/sp_0373_01.pdf"
         },
         "FlightManual": {
-            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Nimbus3D_Flight_Manual.pdf"
+            "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Nimbus3D_Flight_Manual.pdf",
+            "Provides": [ "p1arm", "p2arm", "fuselage_fuel_arm", "tail_wing_ballast_arm" ]
         }
     },
     "NIMBUS3DT": {
@@ -1386,14 +1418,19 @@
             "Authority": "LBA",
             "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt-3/",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt/",
+            "Provides": [ "p1arm", "p2arm", "fuselage_fuel_arm", "tail_wing_ballast_arm", "distance_a", "distance_b" ]
         }
     },
     "NIMBUS3DM": {
         "TCDS": {
             "Authority": "LBA",
-            "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt-3/",
+            "URL": "https://members.gliding.co.uk/library/airworthiness/nimbus-3dt-2/",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
-        }
+        },
+        "References": [ "NIMBUS3DT" ]
     },
     "NIMBUS4": {
         "TCDS": {
@@ -1428,7 +1465,7 @@
         },
         "AMM": {
             "URL": "https://pesee-centrage.fr/wp-content/uploads/2024/01/MM-Nimbus-4D-standard.pdf",
-            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "wing_ballast_arm", "cockpit_ballast_arm","tail_ballast_arm"]
+            "Provides": [ "distance_a", "distance_b", "p1arm", "p2arm", "wing_ballast_arm", "cockpit_ballast_arm","tail_wing_ballast_arm"]
         }
     },
     "NIMBUS4DT": {
@@ -1481,8 +1518,7 @@
             "Provides": [ "mdry", "p1arm", "wing_ballast_arm" ]
         },
         "OtherData": {
-            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312149_speedastir2.pdf",
-            "Provides": [ "p1arm", "mdry" ]
+            "URL":"https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312149_speedastir2.pdf"
         }
     },
     "SPEEDASTIRIIB":{
@@ -1582,7 +1618,7 @@
         },
         "FlightManual": {
             "URL": "https://www.ggc.org.au/docs/aircraft/fmanual/SZD50-3%20Puchacz.pdf",
-            "Provides": [ "p1arm", "p2arm", "cockpit_ballast_arm", "baggage_arm" ]
+            "Provides": [ "p1arm", "p2arm", "max_cockpit", "cockpit_ballast_arm", "baggage_arm" ]
         }
     },
     "SZD511": {
@@ -1592,8 +1628,16 @@
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://shobdongliding.co.uk/pdf/JuniorFlightManual.pdf"
-        }
+            "URL": "https://shobdongliding.co.uk/pdf/JuniorFlightManual.pdf",
+            "Provides": [ "cockpit_ballast_arm", "p1_instrument_arm", "p1arm"]
+        },
+        "Measured": [
+            {
+                "arms": [ "distance_a", "distance_b" ],
+                "source": "VH-HDP",
+                "date": ""
+            }
+        ]
     },
     "SZD551": {
         "TCDS": {
@@ -1603,14 +1647,17 @@
         },
         "FlightManual": {
             "URL": "https://www.aeroklub-edvardrusjan.si/wp-content/uploads/2017/09/szd_55_flight_manual-1.pdf",
-            "Provides": [ "mdry", "p1arm", "p1arm_max", "tail_ballast_arm", "cockpit_ballast_arm", "p1_instrument_arm", "baggage_arm", "wing_ballast_arm"]
+            "Provides": [ "mdry", "p1arm", "p1arm_max", "tail_wing_ballast_arm", "cockpit_ballast_arm", "p1_instrument_arm", "baggage_arm", "wing_ballast_arm"]
         },
         "AMM": {
             "URL": "https://www.aeroklub-edvardrusjan.si/wp-content/uploads/2017/09/szd_55_technical_service_manual.pdf"
         },
         "ManufacturerDocumentation": {
             "URL": "https://www.szdallstar.com/en/service/technical-documentation/szd-55-1-nexus"
-        }
+        },
+        "Notes": [
+            "P1 arm range calculated from the formula 580-0.2 * (Mp - 550)"
+        ]
     },
     "SZD591": {
         "TCDS": {
@@ -1690,7 +1737,7 @@
         },
         "FlightManual": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2024/09/Ventus_B_Flight_Manual.pdf",
-            "Provides": [ "cockpit_ballast_arm", "p1arm", "baggage_arm", "tail_ballast_arm"]
+            "Provides": [ "cockpit_ballast_arm", "p1arm", "baggage_arm", "tail_wing_ballast_arm"]
         }
     },
     "VENTUSC": {
@@ -1735,7 +1782,7 @@
         },
         "FlightManual": {
             "URL": "http://www.smbc-eferding.at/wp-content/uploads/2014/01/Ventus-CT-Flughandbuch.pdf",
-            "Provides": [ "p1arm", "cockpit_ballast_arm", "fuselage_fuel_arm", "tail_ballast_arm", "wing_ballast_arm", "baggage_arm"]
+            "Provides": [ "p1arm", "cockpit_ballast_arm", "fuselage_fuel_arm", "tail_wing_ballast_arm", "wing_ballast_arm", "baggage_arm"]
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2020/07/Ventus-ct-data-sheet.pdf",
@@ -1753,7 +1800,7 @@
         },
         "AMM": {
             "URL": "https://www.scribd.com/document/665568612/Ventus-2a-Maintenace-manual-2000-ver-11",
-            "Provides": [ "distance_a", "distance_b", "p1arm", "wing_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm"]
+            "Provides": [ "distance_a", "distance_b", "p1arm", "wing_ballast_arm", "tail_wing_ballast_arm", "tail_battery_arm", "cockpit_ballast_arm"]
         }
     },
     "VENTUS2B": {
@@ -1762,13 +1809,7 @@
             "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa274-schempp-hirth",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
-        "FlightManual": {
-            "URL": "https://www.manualslib.de/download/113895/Schempp-Hirth-Flugzeugbau-Ventus-2B.html"
-        },
-        "AMM": {
-            "URL": "https://www.scribd.com/document/665568612/Ventus-2a-Maintenace-manual-2000-ver-11",
-            "Provides": [ "wing_ballast_arm" ]
-        }
+        "References": [ "VENTUS2A" ]
     },
     "VENTUS2C": {
         "TCDS": {
@@ -1777,7 +1818,12 @@
             "Provides": [ "mauw", "mnlp", "cg_range" ]
         },
         "FlightManual": {
-            "URL": "https://www.manualslib.com/manual/2499400/Flugzeugbau-Ventus-2c.html"
+            "URL": "https://www.manualslib.com/manual/2499400/Flugzeugbau-Ventus-2c.html",
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm"]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/library/datasheets/ventus-2c/",
+            "Provides": [ "p1arm", "distance_a", "distance_b", "tail_battery_arm"]
         }
     },
     "VENTUS2CT": {
@@ -1788,8 +1834,13 @@
         },
         "FlightManual": {
             "URL": "https://svaevethy.dk/wp-content/uploads/2014/05/Ventus-2cT-SW-part-2.pdf",
-            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm"]
-        }
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm"]
+        },
+        "OtherData": {
+            "URL": "https://members.gliding.co.uk/library/datasheets/ventus-2ct/",
+            "Provides": [ "mdry", "p1arm", "distance_a", "distance_b", "tail_battery_arm"]
+        },
+        "References": [ "VENTUS2C"]
     },
     "VENTUS2CM": {
         "TCDS": {
@@ -1799,7 +1850,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/2542645/Schempp-Hirth-Flugzeugbau-Ventus-2cm.html",
-            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_ballast_arm", "fuselage_fuel_arm"]
+            "Provides": [ "cockpit_ballast_arm", "wing_ballast_arm", "tail_wing_ballast_arm", "fuselage_fuel_arm"]
         }
     },
     "VENTUS2CFES": {
@@ -1818,7 +1869,7 @@
         },
         "AMM": {
             "URL": "https://www.manualslib.com/download/3500364/Schempp-Hirth-Flugzeugbau-Ventus-3m.html",
-            "Provides": [ "distance_a","distance_b", "p1arm", "wing_ballast_arm", "cockpit_ballast_arm", "tail_ballast_arm", "tail_battery_arm", "fuselage_fuel_arm"]
+            "Provides": [ "distance_a","distance_b", "p1arm", "wing_ballast_arm", "cockpit_ballast_arm", "tail_wing_ballast_arm", "tail_battery_arm", "fuselage_fuel_arm"]
         },
         "FlightManual": {
             "URL": "https://www.scribd.com/document/607856699/Manual-ventus3"
@@ -1832,7 +1883,7 @@
         },
         "FlightManual": {
             "URL": "https://www.manualslib.com/manual/2096346/Schempp-Hirth-Flugzeugbau-Ventus-3t-Sport.html",
-            "Provides":[ "wing_ballast_arm", "tail_ballast_arm", "cockpit_ballast_arm"]
+            "Provides":[ "wing_ballast_arm", "tail_wing_ballast_arm", "cockpit_ballast_arm"]
         }
     },
     "VENTUS3F": {

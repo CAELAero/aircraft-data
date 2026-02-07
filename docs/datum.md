@@ -25,6 +25,10 @@ are used to compensate for the CG movement of the water in the wings, so it has 
 weight that can be used. Rather than go for full accuracy, we only record a single figure within the data, and
 typically that will be the shortest arm. 
 
+A few 2 seaters have a pilot arm range provided for the rear seat. When supplied, these tend to have almost
+no impact because the range is so small (20mm and under). For this documentation, P2 arm is either the average
+value or the value closest to the CG location.
+
 ## Units
 
 All units are metric and the typical values used for weight and balance calculations - millimetres for distance and 
