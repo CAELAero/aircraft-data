@@ -103,6 +103,13 @@
             "Provides": [ "baggage_arm", "wing_ballast_arm", "tail_battery_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "p1_instrument_arm"]
         }
     },
+    "ASH30": {
+        "TCDS": {
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/sites/default/files/dfu/TCDS_A_213_Schleicher_ASH25_issue_6.pdf",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
     "ASH31MI": {
         "TCDS": {
             "Authority": "EASA",
@@ -117,6 +124,21 @@
             "URL": "https://motorglider.org/publications/manuals/schleicher-manuals/ash-31mi-maintenance-manual.html",
             "Provides": [ "p1arm", "p1arm_max", "wing_ballast_arm", "baggage_arm", "fuselage_fuel_arm", "cockpit_ballast_arm", "tail_wing_ballast_arm", "p1_instrument_arm", "distance_a", "distance_b"]
         }
+    },
+    "ASG32": {
+        "TCDS":{
+            "Authority":"EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa599-asg-32"
+        },
+        "FlightManual": {
+            "URL": "https://www.williamssoaring.com/fleet/ASG32_manual.pdf"
+        }
+    },
+    "ASG32EL": {
+        "References": [ "ASG32" ]
+    },
+    "ASG32MI": {
+        "References": [ "ASG32" ]
     },
     "ASK13": {
         "TCDS": {

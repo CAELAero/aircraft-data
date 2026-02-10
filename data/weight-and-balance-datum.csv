@@ -17,6 +17,7 @@ ASH25M,utility,25,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,,220,400,-
 ASH25M,utility,25.6,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
 ASH25M,utility,26,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
 ASH25MI,utility,26.5,,WRLE,Rear fuselage level,model_1,850,777,500,110,0,,220,390,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH30MI,utility,26.5,,WRLE,Rear fuselage level,model_1,850,850,500,110,0,,220,390,,,,,,,,,,,,,,,0,0
 ASH26,utility,18,,WRLE,1000:31 top of rear fuselage,model_1,525,525,344,110,0,,250,390,-543,,,-1800,,,4581,201,160:280,,,,-1120,,57,4663
 ASH26E,utility,18,,WRLE,1000:31 top of rear fuselage,model_1,525,525,344,110,0,,290,410,-543,,,-1800,,,4581,201,160:280,,304,,-1120,,57,4663
 ASH31MI,utility,18,,WRLE,1000:31 top of rear fuselage,model_1a,630,630,365,110,0,,290,410,-530,-570,,-1800,,4581,,201,,160:2410,304,,,,57,4659
@@ -51,6 +52,9 @@ ASW28,utility,15,,WRLE,1000:49 top of rear fuselage,model_1,525,405,260,115,0,,2
 ASW28B,utility,15,,WRLE,1000:49 top of rear fuselage,model_1,525,405,260,115,0,,222,345,,,,,,,,,,,,,,,0,0
 ASW2818,utility,15,,WRLE,1000:49 top of rear fuselage,model_1,525,405,285,115,0,,227,406,,,,,,,,,,,,,,,0,0
 ASW2818,utility,18,,WRLE,1000:49 top of rear fuselage,model_1,575,419,285,115,0,,233,406,,,,,,,,,,,,,,,0,0
+ASG32,utility,20,,WRLE,1000:27 top of rear fuselage,model_1,850,850,550,120,0,,156,385,,,,,,,,,,,,,,,0,0
+ASG32EL,utility,20,,WRLE,1000:27 top of rear fuselage,model_1,850,850,550,120,0,,156,385,,,,,,,,,,,,,,,0,0
+ASG32MI,utility,20,,WRLE,1000:27 top of rear fuselage,model_1,850,850,550,120,0,,156,385,,,,,,,,,,,,,,,0,0
 AS33ES,utility,15,,WRLE,1000:54 top of rear fuselage,model_1,550,600,300,115,70,,220,330,-530,-615,,-1700,4395,,4132,173,150:200:210,,60,,,,0,0
 AS33ES,utility,18,,WRLE,1000:54 top of rear fuselage,model_1,600,600,300,115,70,,220,330,-530,-615,,-1700,4395,,4132,173,150:200:210,,60,,,,0,0
 AS33ME,utility,15,,WRLE,1000:54 top of rear fuselage,model_1,550,600,300,115,70,,220,330,-530,-615,,-1700,4395,,4132,173,150:200:210,,60,,,,0,0
@@ -301,7 +305,7 @@ NIMBUS4DT,utility,26.5,Tail Skid,WRLE,1000:45 rear top of rear fuselage,model_1,
 NIMBUS4DM,utility,26.5,Tail Wheel,WRLE,1000:45 rear top of rear fuselage,model_1,820,820,500,110,0,,105,260,-1463,,-353,-1916,5270,,,43,,,,,,,0,5265
 NIMBUS4DM,utility,26.5,Tail Skid,WRLE,1000:45 rear top of rear fuselage,model_1,820,820,500,110,0,,105,260,-1463,,-353,-1916,5270,,,43,,,,,,,0,5300
 PIK20,utility,15,,1900mm forward of WRLE,1000:28 Slope of rear top surface of fuselage between stations 3556mm and 4572mm,model_1,400,400,,110,75,,2085,2225,1400,1460,,230,,,,2130,,,,,,,0,0
-PIK20,utility,15,""SN 20004-20067, 20074, 20076, 20077, 20089 with SB M19"",1900mm forward of WRLE,1000:28 Slope of rear top surface of fuselage between stations 3556mm and 4572mm,model_1,450,450,,110,75,,2085,2225,1400,1460,,230,,,,2130,,,,,,,0,0
+PIK20,utility,15,"SN 20004-20067, 20074, 20076, 20077, 20089 with SB M19",1900mm forward of WRLE,1000:28 Slope of rear top surface of fuselage between stations 3556mm and 4572mm,model_1,450,450,,110,75,,2085,2225,1400,1460,,230,,,,2130,,,,,,,0,0
 PIK20B,utility,15,,1900mm forward of WRLE,1000:28 Slope of rear top surface of fuselage between stations 3556mm and 4572mm,model_1,450,450,230,110,75,,2085,2225,1400,1460,,230,,,,2130,,,,,,,0,0
 PIK20D,utility,15,,1900mm forward of WRLE,1000:28 Slope of rear top surface of fuselage between stations 3500mm and 4500mm,model_1,450,450,220,110,75,,12085,2225,1400,1460,,230,,,,2130,,,,,,,0,0
 SPEEDASTIRII,utility,15,,WRLE,600:26 top of rear fuselage,model_1,515,400,260,110,0,,320,490,-578,,,,,,,308,,,,,,,0,0
