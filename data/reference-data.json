@@ -1681,6 +1681,23 @@
             "P1 arm range calculated from the formula 580-0.2 * (Mp - 550)"
         ]
     },
+    "SZD561": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa451-szd-56-diana",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        }
+    },
+    "SZD562": {
+        "TCDS": {
+            "Authority": "EASA",
+            "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa451-szd-56-diana",
+            "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://archive.org/details/manualzilla-id-6010217"
+        }
+    },
     "SZD591": {
         "TCDS": {
             "Authority":"EASA",

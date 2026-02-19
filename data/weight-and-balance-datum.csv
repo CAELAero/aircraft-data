@@ -329,6 +329,8 @@ SZD503,utility,16.7,,WRLE,Leading and trailing points of root chord (1580 mm) at
 SZD503,aerobatic,16.7,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,540,540,398,110,55,195,92,333,-1339,,-247,-1745,,,,,-54,,,,,,0,0
 SZD511,utility,15,,WRLE,Wing leading and trailing edge level,model_1,380,380,275,110,55,,287,482,-500,,,-1760,,,,,120:220,,,,-970,,0,4160
 SZD551,utility,15,,WRLE,Wing leading and trailing edge level,model_1,500,350,230,110,60,,283,441,-470,-580,,,3900,,4385,210,190:500,,1000,,-970,,0,0
+SZD561,utility,15,,WRLE,Wing leading and trailing edge level,model_1,410,297,297,115,55,,105,257,,,,,,,,,,,,,,,0,0
+SZD562,utility,15,,WRLE,Upper contour of tail boom level,model_1,500,297,297,115,55,,202,362,,,,,,,,,,,,,,,0,0
 SZD591,utility,15,,WRLE,T/E 22mm below L/E,model_1,540,390,243,110,55,,145,275,-605,-735,,-1148,,,,152,170:930,,,,-1290,,120,3648
 SZD591,aerobatic,13.2,,WRLE,T/E 22mm below L/E,model_1,380,380,243,110,55,,145,275,-605,-735,,-1148,,,,152,170:930,,,,-1290,,120,3648
 TWINASTIR,utility,17.5,,WRLE,600:24 top of rear fuselage 150mm in front of fin,model_1,650,650,470,110,70,,260,460,-1150,,40,-1560,-370,,,,,,,,,,0,0
