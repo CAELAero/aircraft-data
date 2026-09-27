@@ -1622,7 +1622,7 @@
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/1430312131_jantarstd3.pdf",
-            "Provides": [ "p1arm", "p1arm_max" ]
+            "Provides": [ "min_seat", "p1arm", "p1arm_max", "baggage_arm", "p1_instrument_arm" ]
         }
     },
     "SZD502": {

@@ -323,7 +323,7 @@ STANDARDLIBELLE,utility,15,,Wing leading edge y=425 mm from the centerline,1000:
 STANDARDLIBELLE201B,utility,15,,Wing leading edge y=425 mm from the centerline,1000:70 on rear top fuselage,model_1,350,315,210,110,0,,244,348,-299,-400,,,,,,,,,,,,,120,3820
 STANDARDLIBELLE203,utility,15,,Wing leading edge y=425 mm from the centerline,1000:52 on rear top fuselage,model_1,380,315,210,110,0,,244,348,,,,,,,,,,,,,,,0,0
 SZD481,utility,15,,WRLE,T/E 22mm below L/E,model_1,535,385,245,110,55,,148,336,-616,,,,,,,,,,,,,,120,3648
-SZD483,utility,15,,WRLE,T/E 22mm below L/E,model_1,540,390,243,110,55,,148,336,-605,-735,,,,,,,,,,,,,120,3648
+SZD483,utility,15,,WRLE,T/E 22mm below L/E,model_1,540,390,243,110,55,,148,336,-605,-735,,,,,,,930,,,,-1290,,120,3648
 SZD502,utility,16.7,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_1,540,540,398,110,55,195,132,203,-1339,,-247,-1745,,,,,-54,,,,,,0,0
 SZD503,utility,16.7,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,570,570,398,110,55,195,92,333,-1339,,-247,-1745,,,,,-54,,,,,,0,0
 SZD503,aerobatic,16.7,,WRLE,Leading and trailing points of root chord (1580 mm) at the same level,model_3,540,540,398,110,55,195,92,333,-1339,,-247,-1745,,,,,-54,,,,,,0,0
