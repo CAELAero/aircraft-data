@@ -7,23 +7,23 @@ ARCUSM,utility,20,Fixed Tail Wheel,WRLE,1000:45 top of rear fuselage,model_1a,80
 ARCUSM,utility,20,Steerable Tail Wheel,WRLE,1000:45 top of rear fuselage,model_1a,800,785,550,115,0,,100,290,-1468,,-308,-2153:-1953,5292,,5277,-17,,145,492,,-2153,,-20,5557
 ARCUSM,utility,20,Fixed Tail Wheel/TN A532-4,WRLE,1000:45 top of rear fuselage,model_1a,850,785,560,115,0,,95,290,-1468,,-308,-2153:-1953,5292,,5277,-17,,145,492,,-2153,,-20,5302
 ARCUSM,utility,20,Steerable Tail Wheel/TN A532-4,WRLE,1000:45 top of rear fuselage,model_1a,850,785,560,115,0,,95,290,-1468,,-308,-2153:-1953,5292,,5277,-17,,145,492,,-2153,,-20,5557
-ASH25,utility,25,,WRLE,Rear fuselage level,model_1,750,735,390,110,0,,190,390,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25,utility,25.6,,WRLE,Rear fuselage level,model_1,750,735,390,110,0,,190,390,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25,utility,26,,WRLE,Rear fuselage level,model_1,750,735,390,110,0,,190,390,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25E,utility,25,,WRLE,Rear fuselage level,model_1,750,735,425,110,0,,210,400,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25E,utility,25.6,,WRLE,Rear fuselage level,model_1,750,735,425,110,0,,210,400,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25E,utility,26,,WRLE,Rear fuselage level,model_1,750,735,425,110,0,,210,400,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25M,utility,25,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25M,utility,25.6,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25M,utility,26,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH25MI,utility,26.5,,WRLE,Rear fuselage level,model_1,850,777,500,110,0,,220,390,-1322,,-339,-1849,,,,,,,,,,,0,0
-ASH30MI,utility,26.5,,WRLE,Rear fuselage level,model_1,850,850,500,110,0,,220,390,,,,,,,,,,,,,,,0,0
+ASH25,utility,25,,WRLE,Rear fuselage level,model_1,750,735,390,110,0,195,190,390,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25,utility,25.6,,WRLE,Rear fuselage level,model_1,750,735,390,110,0,195,190,390,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25,utility,26,,WRLE,Rear fuselage level,model_1,750,735,390,110,0,195,190,390,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25E,utility,25,,WRLE,Rear fuselage level,model_1,750,735,425,110,0,195,210,400,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25E,utility,25.6,,WRLE,Rear fuselage level,model_1,750,735,425,110,0,195,210,400,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25E,utility,26,,WRLE,Rear fuselage level,model_1,750,735,425,110,0,195,210,400,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25M,utility,25,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,195,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25M,utility,25.6,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,195,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25M,utility,26,,WRLE,Rear fuselage level,model_1,790,777,460,110,0,195,220,400,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH25MI,utility,26.5,,WRLE,Rear fuselage level,model_1,850,777,500,110,0,195,220,390,-1322,,-339,-1849,,,,,,,,,,,0,0
+ASH30MI,utility,26.5,,WRLE,Rear fuselage level,model_1,850,850,500,110,0,195,220,390,,,,,,,,,,,,,,,0,0
 ASH26,utility,18,,WRLE,1000:31 top of rear fuselage,model_1,525,525,344,110,0,,250,390,-543,,,-1800,,,4581,201,160:280,,,,-1120,,57,4663
 ASH26E,utility,18,,WRLE,1000:31 top of rear fuselage,model_1,525,525,344,110,0,,290,410,-543,,,-1800,,,4581,201,160:280,,304,,-1120,,57,4663
-ASH31MI,utility,18,,WRLE,1000:31 top of rear fuselage,model_1a,630,630,365,110,0,,290,410,-530,-570,,-1800,,4581,,201,,160:2410,304,,,,57,4659
-ASH31MI,utility,21,,WRLE,1000:31 top of rear fuselage,model_1a,700,640,365,110,0,,290,380,-530,-570,,-1800,,4581,,201,,160:2410,304,,,,57,4659
-ASK13,special,17,,Wing Leading edge at rib 3,1000:55 top of rear fuselage,model_2,480,480,320,100,65,,70,247,,,,,,,,,,,,,,,-959,6190
-ASK13,utility,17,,Wing Leading edge at rib 3,1000:55 top of rear fuselage,model_2,480,480,320,100,65,,70,247,,,,,,,,,,,,,,,-959,6190
+ASH31MI,utility,18,,WRLE,1000:31 top of rear fuselage,model_1a,630,630,365,110,0,,290,410,-530,-570,,-1800,,4581,,201,160:2410,,304,,,,57,4659
+ASH31MI,utility,21,,WRLE,1000:31 top of rear fuselage,model_1a,700,640,365,110,0,,290,380,-530,-570,,-1800,,4581,,201,160:2410,,304,,,,57,4659
+ASK13,special,16,,Wing Leading edge at rib 3,1000:55 top of rear fuselage,model_2,480,480,320,100,65,,70,247,,,,,,,,,,,,,,,-959,6190
+ASK13,utility,16,,Wing Leading edge at rib 3,1000:55 top of rear fuselage,model_2,480,480,320,100,65,,70,247,,,,,,,,,,,,,,,-959,6190
 ASK21,utility,17,,WRLE,1000:52 top of rear fuselage,model_3,600,600,410,110,70,,234,469,-1185,-1250,-77,-1640,,,,,250,,,,-1680,-480,-1600,6871
 ASK21,aerobatic,17,,WRLE,1000:52 top of rear fuselage,model_3,600,600,410,110,70,,234,469,-1185,-1250,-77,-1640,,,,,250,,,,-1680,-480,-1600,6871
 ASK21MI,utility,17,,WRLE,1000:52 top of rear fuselage,model_3,705,705,510,110,70,,234,469,-1185,-1250,-77,-1640,,,,,250,,900,,-1680,-480,-1600,6871

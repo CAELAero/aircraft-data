@@ -41,7 +41,7 @@
         },
         "FlightManual": {
             "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf",
-            "Provides": [ ]
+            "Provides": [ "max_cockpit" ]
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASH-25.pdf",
@@ -57,7 +57,7 @@
         },
         "FlightManual": {
             "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf",
-            "Provides": [ ]
+            "Provides": [ "max_cockpit" ]
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASH-25.pdf",
@@ -73,7 +73,7 @@
         },
         "FlightManual": {
             "URL": "https://www.alexander-schleicher.de/wp-content/uploads/2015/02/250_TM11_E_HB.pdf",
-            "Provides": [ ]
+            "Provides": [ "max_cockpit" ]
         },
         "OtherData": {
             "URL": "https://members.gliding.co.uk/wp-content/uploads/sites/3/2015/04/ASH-25.pdf",
@@ -300,6 +300,9 @@
             "Authority":"EASA",
             "URL": "https://www.easa.europa.eu/en/document-library/type-certificates/aircraft-cs-25-cs-22-cs-23-cs-vla-cs-lsa/easaa220-schleicher-asw",
             "Provides": [ "mauw", "mnlp", "cg_range" ]
+        },
+        "FlightManual": {
+            "URL": "https://www.manualslib.com/download/4221241/Schleicher-Asw-27.html"
         },
         "References": [ "ASW2718E" ]
     },
